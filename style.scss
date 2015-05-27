@@ -142,6 +142,24 @@ img {
     clear: both;
 }
 
+ul.navlist {
+    margin: 0;
+    padding: 0;
+    padding-top: 2em;
+    list-style-type: none;
+    text-align: center;
+
+    li {
+        display: inline;
+        padding-right: 2em;
+        float: left;
+
+        a {
+            display: block;
+        }
+    }
+}
+
 /*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
