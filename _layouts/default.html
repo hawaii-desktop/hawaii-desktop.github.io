@@ -14,13 +14,17 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
+    <!-- Fonts -->
     <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"> -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700">
+    <!-- Style -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
-<!--
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
--->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <!-- Extra styles -->
+    {% contentblock extra_styles %}
+
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml">
 
     <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
@@ -74,6 +78,11 @@
 
     {% include analytics.html %}
 
+    <!-- jQuery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <!-- Extra scripts -->
+    {% contentblock extra_scripts %}
   </body>
 </html>
