@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+{% contentfor extra_styles %}
+    <!-- Bootstrap-Image-Gallery -->
+    <link rel="stylesheet" type="text/css" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap-image-gallery.min.css">
+{% endcontentfor %}
+
+{% contentfor extra_scripts %}
+    <!-- Bootstrap-Image-Gallery -->
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/bootstrap-image-gallery.min.js"></script>
+
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+{% endcontentfor %}
+
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<div id="links">
+    <a href="{{ site.baseurl }}/images/galleries/screenshots/AppChooser1.png" title="Applications">
+        <img src="{{ site.baseurl }}/images/screenshots/AppChooser1_thumbnail.png" alt="Applications">
+    </a>
+    <a href="{{ site.baseurl }}/images/galleries/screenshots/AppChooser2.png" title="Applications">
+        <img src="{{ site.baseurl }}/images/galleries/screenshots/AppChooser2_thumbnail.png" alt="Applications">
+    </a>
+    <a href="{{ site.baseurl }}/images/galleries/screenshots/Desktop1.png" title="Desktop">
+        <img src="{{ site.baseurl }}/images/galleries/screenshots/Desktop1_thumbnail.png" alt="Desktop">
+    </a>
+</div>
