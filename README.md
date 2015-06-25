@@ -9,12 +9,19 @@ To learn how to work on this Web site please refer to the [Jekyll Now documentat
 Install the following stuff the first time:
 
 ```sh
-sudo dnf install -y ruby-devel rubygem-execjs rubygem-therubyracer
+sudo dnf install -y ruby-devel rubygem-rake rubygem-execjs rubygem-therubyracer
 gem install github-pages
+gem install jekyll-contentblocks
 ```
 
 Serve the pages locally with:
 
 ```sh
 jekyll serve
+```
+
+Deploy to GitHub pages with:
+
+```sh
+rake
 ```
