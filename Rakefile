@@ -14,18 +14,18 @@ task :generate do
   })).process
 end
 
-desc "Generate and publish Web site to gh-pages"
+desc "Generate and publish Web site to master"
 task :publish => [:generate] do
   Dir.mktmpdir do |tmp|
     system "mv _site/* #{tmp}"
-    system "git checkout -B gh-pages"
+    system "git checkout -B master"
     system "rm -rf *"
     system "mv #{tmp}/* ."
     message = "Site updated at #{Time.now.utc}"
     system "git add ."
     system "git commit -am #{message.shellescape}"
-    system "git push origin gh-pages --force"
-    system "git checkout master"
+    system "git push origin master --force"
+    system "git checkout source"
     system "echo yolo"
   end
 end
