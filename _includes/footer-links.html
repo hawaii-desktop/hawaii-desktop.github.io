@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4">
+            <h4>Latest News</h4>
+            <ul>
+            {% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </div>
+        <div class="col-md-4">
+            <h4>About</h4>
+            <ul>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/faq">Team</a></li>
+                <li><a href="/faq">Project</a></li>
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <h4>Community</h4>
+            <ul>
+                <li><a href="/community/code-of-conduct">Code of Conduct</a></li>
+                <li><a href="/community/governance-model">Governance Model</a></li>
+                <li><a href="/community/get-involved">Get Involved</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- vim: set noai ts=4 sw=4 expandtab: -->

@@ -23,13 +23,7 @@ body {
   color: $darkGray;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
-  width: 100%;
-}
-
+/*
 h1, h2, h3, h4, h5, h6 {
   font-family: $titillium;
   color: $darkerGray;
@@ -106,10 +100,6 @@ strong, b {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
-}
-
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -141,6 +131,7 @@ img {
 .clearfix:after {
     clear: both;
 }
+*/
 
 ul.navlist {
     margin: 0;
@@ -167,19 +158,6 @@ ul.navlist {
 //
 // .masthead
 //
-
-.wrapper-masthead {
-  margin-bottom: 50px;
-}
-
-.masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
-  }
-}
 
 .site-avatar {
   float: left;
@@ -228,33 +206,6 @@ ul.navlist {
   }
 }
 
-nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $titillium;
-  font-size: 18px;
-
-  @include mobile {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-
-  a {
-    margin-left: 20px;
-    color: $darkGray;
-    text-align: right;
-    font-weight: 300;
-    letter-spacing: 1px;
-
-    @include mobile {
-      margin: 0 10px;
-      color: $blue;
-    }
-  }
-}
-
 //
 // .main
 //
@@ -289,8 +240,7 @@ nav {
   }
 }
 
-.wrapper-footer {
-  margin-top: 50px;
+.footer {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;

@@ -1,94 +1,96 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{{ site.description }}">
+        <meta name="author" content="{{ site.name }}" />
+        <meta name="description" content="{{ site.description }}">
 
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
 
-    <!-- Fonts -->
-    <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"> -->
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700">
-    <!-- Style -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-    <!-- Extra styles -->
-    {% contentblock extra_styles %}
+        <!-- Fonts -->
+        <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"> -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css">
+        <!-- Extra styles -->
+        {% contentblock extra_styles %}
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml">
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml">
 
-    <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
-    <script type="text/javascript">
-        window.cookieconsent_options = {
-            "message": "This website uses cookies to ensure you get the best experience on our website. " +
-                       "By using our website you consent to all cookies in accordance with our Privacy Policy.",
-            "dismiss": "Got it!",
-            "learnMore": "More info",
-            "link": "/privacy-policy",
-            "theme":"dark-bottom"
-        };
-    </script>
-    <script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
-    <!-- End Cookie Consent plugin -->
+        <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+        <script type="text/javascript">
+            window.cookieconsent_options = {
+                "message": "This website uses cookies to ensure you get the best experience on our website. " +
+                           "By using our website you consent to all cookies in accordance with our Privacy Policy.",
+                "dismiss": "Got it!",
+                "learnMore": "More info",
+                "link": "/privacy-policy",
+                "theme":"dark-bottom"
+            };
+        </script>
+        <script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+        <!-- End Cookie Consent plugin -->
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
-  </head>
+        <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    </head>
+    <body>
+        <noscript>
+            <h4 class="alert-heading">
+            Javascript is disabled in your browser.
+            Please enable Javascript or upgrade your browser for the best experience.
+        </noscript>
 
-  <body>
-    <noscript>
-      <h4 class="alert-heading">
-      Javascript is disabled in your browser.
-      Please enable Javascript or upgrade your browser for the best experience.
-    </noscript>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="{{ site.baseurl }}/"><img width="24" height="24" src="{{ site.avatar }}"></a>
+                </div>
 
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-            <a href="{{ site.baseurl }}/features">Features</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ site.baseurl }}/">Blog</a></li>
+                        <li><a href="{{ site.baseurl }}/about">About</a></li>
+                        <li><a href="{{ site.baseurl }}/features">Features</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+        {{ content }}
 
-    <div class="wrapper-footer">
-      <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
+            {% include svg-icons.html %}
+            {% include copyright.html %}
+            {% include footer-links.html %}
         </footer>
-      </div>
-    </div>
 
-    {% include analytics.html %}
+        {% include analytics.html %}
 
-    <!-- jQuery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Bootstrap -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <!-- Extra scripts -->
-    {% contentblock extra_scripts %}
-  </body>
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <!-- Extra scripts -->
+        {% contentblock extra_scripts %}
+    </body>
 </html>
+
+<!-- vim: set noai ts=4 sw=4 expandtab: -->
