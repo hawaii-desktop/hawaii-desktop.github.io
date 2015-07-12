@@ -1,0 +1,12 @@
+{% if page.ancestors %}
+    <ol itemscope itemtype="http://schema.org/BreadcrumbList">
+        {% for p in page.ancestors %}
+        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem">
+            <a itemprop="item" href="{{ site.baseurl }}{{ p.url }}"><span itemprop="name">{{ p.title }}</span></a>
+            <meta itemprop="position" content="1">
+        </li>
+        {% endfor %}
+    </ol>
+{% endif %}
+
+<!-- vim: set noai ts=4 sw=4 expandtab: -->
