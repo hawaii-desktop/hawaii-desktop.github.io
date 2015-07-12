@@ -204,6 +204,15 @@ ul.navlist {
   }
 }
 
+ul.links {
+  li {
+    list-style-type: none !important;
+    margin-left: 0;
+    padding-left: 2em;
+    text-indent: -2em;
+  }
+}
+
 //
 // .main
 //
