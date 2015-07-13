@@ -1,0 +1,1 @@
+RewriteRule ^community/get-involved/(.*)$ /get-involved/$1 [R=301,NC,L]

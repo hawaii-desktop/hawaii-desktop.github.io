@@ -1,0 +1,221 @@
+---
+layout: page
+title: Get Involved
+permalink: /community/get-involved
+---
+
+.container
+  .row
+    .span12
+      The project is open to contributions from anyone, however there is a process to follow.
+      %ul
+        %li
+          For big changes, the contributor communicates with the Project via <a href="https://groups.google.com/d/forum/maui-development">mailing lists</a>
+          or the issue tracker of the specific module he/she wants to make the contribution to get feedback before submitting code.
+        %li
+          Contributor makes a GitHub pull request.
+        %li
+          Maintainer conducts code review, runs tests and asks for adjustments from contributor as necessary.
+        %li
+          Maintainer merges the commits into the repo and closes the pull request.
+      %p
+        Below you can find several ways to contribute.
+  .row
+    .span6
+      %h2 Web
+      %p
+        The Web site is the easiest module to contribute to. It is statically generated using
+        <a href="http://awestruct.org/" target="_blank">Awestruct</a> and
+        pages are written with <a href="http://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a> and
+        <a href="http://en.wikipedia.org/wiki/Haml" target="_blank">Haml</a> markup languages to make contribution
+        a lot easier.
+      %p
+        Fork the <a href="https://github.com/mauios/mauios.github.io">mauios.github.io</a> repository and start sending
+        your <a href="https://help.github.com/articles/creating-a-pull-request" target="_blank">pull requests</a> now.
+
+      %h2 Write
+      %p
+        Maui is always looking for writers, whether it is to create user and developer guides for our software,
+        write content for the websites, or just to blog about the great stuff that is always happening here.
+      %p
+        Contact us on the <a href="https://groups.google.com/d/forum/maui-project" target="_blank">project mailing list</a>
+        and tell us you are willing to participate.
+      %p
+        These are the relevant git repositories:
+      %ul
+        %li
+          %a{ :href=>'https://github.com/mauios/wiki' }
+            wiki
+          &dash; Wiki
+
+      %h2 Translate
+      %p
+        Maui needs to be available in many different languages, this is a key part of our mission to make our software
+        available to as many people as possible.
+      %p
+        If you have a good knowledge of English and another language, you can participate in a translation team, so that
+        the Hawaii desktop environment, documentation and websites can be used by people from all over the world.
+      %p
+        You can translate the Hawaii desktop environment from
+        <a href="https://www.transifex.com/projects/p/hawaii/" target="_blank">Transifex</a>.
+
+      %h2 Test
+      %p
+        Making high quality software requires lots of testing. Reporting errors or possible improvements is a valuable way
+        to help with the project and is a great way to start out.
+      %p
+        If you like living dangerously, you can also run our latest development code and help to provide feedback on
+        changes as they happen.
+    .span6
+      %h2 Code
+      %p
+        There are many coding tasks up for grabs in Maui, both small and large. The OS is still in development so we are
+        looking for all kind of code contributions, you don't have to be an expert to start working on the source code.
+      %p
+        All of our code is hosted on Github.com under two different organizations.
+      %p
+        You can find repositories for all the projects related to the desktop environment on the Hawaii organization page,
+        while repositories related to Maui (distribution packaging tools, installer, logos and marketing material and Web sites)
+        are organized under the Maui organization page.
+      %p
+        Search for open issues on the Github page for each of the projects you are interested in, contact the developers using the development mailing list asking for tasks that suit you inclination.
+      %p
+        Below there's a list of repositories grouped by area.
+      #repos.accordion
+        .accordion-group
+          .accordion-heading
+            %a.accordion-toggle{ :href=>'#repos-os', :data=>{ :toggle=>'collapse', :parent=>'#repos' } }
+              System
+            #repos-os.accordion-body.collapse
+              .accordion-inner
+                %ul
+                  %li
+                    %a{ :href=>'https://github.com/mauios/mauibuild' }
+                      mauibuild
+                    &dash; Tool to build Maui trees and images
+                  %li
+                    %a{ :href=>'https://github.com/mauios/poky' }
+                      Poky
+                    &dash; The copy of the Poky base system used by Maui
+                  %li
+                    %a{ :href=>'https://github.com/mauios/meta-maui' }
+                      meta-maui
+                    &dash; Maui layer for Poky
+                  %li
+                    %a{ :href=>'https://github.com/mauios/meta-oe' }
+                      meta-oe
+                    &dash; Recipes layer for Poky (fork of <a href="https://github.com/openembedded/meta-oe">openembedded/meta-oe</a>)
+                  %li
+                    %a{ :href=>'https://github.com/mauios/meta-selinux' }
+                      meta-selinux
+                    &dash; SELinux layer for Poky (fork of <a href="http://git.yoctoproject.org/cgit/cgit.cgi/meta-selinux/">yoctoproject/meta-selinux</a>)
+                  %li
+                    %a{ :href=>'https://github.com/mauios/ostree-integration' }
+                      ostree-integration
+                    &dash; Files for OSTree integration
+                  %li
+                    %a{ :href=>'https://github.com/mauios/installer' }
+                      installer
+                    &dash; Installer for live medias
+                  %li
+                    %a{ :href=>'https://github.com/mauios/initial-setup' }
+                      initial-setup
+                    &dash; Initial setup application
+                  %li
+                    %a{ :href=>'https://github.com/mauios/grub-themes' }
+                      grub-themes
+                    &dash; Themes for GRUB
+        .accordion-group
+          .accordion-heading
+            %a.accordion-toggle{ :href=>'#repos-desktop', :data=>{ :toggle=>'collapse', :parent=>'#repos' } }
+              Desktop
+            #repos-desktop.accordion-body.collapse
+              .accordion-inner
+                %ul
+                  %li
+                    %a{ :href=>'https://github.com/mauios/fluid' }
+                      Fluid
+                    &dash; Additional modules for QtQuick applications
+                  %li
+                    %a{ :href=>'https://github.com/mauios/greenisland' }
+                      Green Island
+                    &dash; Additions and utilities for QtCompositor based Wayland compositors
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-shell' }
+                      Hawaii Shell
+                    &dash; Hawaii shell for desktop, netbook and tablet and compositor
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-system-preferences' }
+                      System Preferences
+                    &dash; Configuration application and its modules
+                  %li
+                    %a{ :href=>'https://github.com/mauios/qtaccountsservice' }
+                      Qt AccountsService Addon
+                    &dash; Addon module that wraps AccountsService for Qt applications
+                  %li
+                    %a{ :href=>'https://github.com/mauios/qtconfiguration' }
+                      QtConfiguration
+                    &dash; New configuration API with changes notifications that will eventually land in Qt
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-icon-themes' }
+                      Icon Themes
+                    &dash; Icon themes for the desktop
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-widget-styles' }
+                      Widget Styles
+                    &dash; Styles for QtQuick Controls based applications
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-wallpapers' }
+                      Wallpapers
+                    &dash; Official wallpapers for the desktop
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-pkgbuilds' }
+                      Hawaii PKGBUILDs
+                    &dash; Packages for Arch Linux
+        .accordion-group
+          .accordion-heading
+            %a.accordion-toggle{ :href=>'#repos-apps', :data=>{ :toggle=>'collapse', :parent=>'#repos' } }
+              Applications
+            #repos-apps.accordion-body.collapse
+              .accordion-inner
+                %ul
+                  %li
+                    %a{ :href=>'https://github.com/mauios/swordfish' }
+                      Swordfish
+                    &dash; File manager integrated with gvfs
+                  %li
+                    %a{ :href=>'https://github.com/mauios/eyesight' }
+                      EyeSight
+                    &dash; Image viewer with slideshow
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-archiver' }
+                      Archiver
+                    &dash; Compressed archives manager
+                  %li
+                    %a{ :href=>'https://github.com/mauios/cinema' }
+                      Cinema
+                    &dash; Video player
+                  %li
+                    %a{ :href=>'https://github.com/mauios/hawaii-terminal' }
+                      Terminal
+                    &dash; Terminal emulator
+
+      %h2 Graphics and Design
+      %p
+        Graphics and user interface design are an important part of the Maui Project. You can help to design user interfaces
+        and make software easy, satisfying and efficient to use. You can also assist our designers in the creation of logos, icons, websites and wallpapers.
+      %p
+        The official <a href="http://www.deviantart.com/" target="_blank">deviantART</a> group <a href="http://mauiproject.deviantart.com/" target="_blank">#MauiProject</a>
+        hosts mockups and designs, we encourage you to submit your own designs to that group and introduce them contacting
+        the <a href="https://groups.google.com/d/forum/maui-development" target="_blank">development mailing list</a>.
+      %p
+        These are the relevant git repositories:
+      %ul
+        %li
+          %a{ :href=>'https://github.com/mauios/artwork' }
+            artwork
+          &dash; Logos and branded material
+        %li
+          %a{ :href=>'https://github.com/mauios/mockups' }
+            mockups
+          &dash; Desktop environment and operating system mockups
