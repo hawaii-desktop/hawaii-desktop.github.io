@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing Hawaii 0.6.0
+author: plfiorini
 permalink: /news/2015/07/06/testing-hawaii-0.6.0/
 ---
 
