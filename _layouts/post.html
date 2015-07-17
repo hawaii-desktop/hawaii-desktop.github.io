@@ -11,9 +11,10 @@ layout: default
                 {{ content }}
             </div>
 
-            <div class="date">
-                Written on {{ page.date | date: "%B %e, %Y" }}
-            </div>
+            <p class="date">
+                Posted by <a href="{% render_author url %}" target="_blank">{% render_author first_name %} {% render_author last_name %}</a>
+                on {{ page.date | date: "%B %e, %Y" }}
+            </p>
 
             {% include share-page.html %}
             {% include disqus.html disqus_identifier=page.disqus_identifier %}
