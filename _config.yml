@@ -45,6 +45,10 @@ url: http://hawaiios.org
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+# Pagination
+# Set the number of posts per page
+paginate: 4
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
