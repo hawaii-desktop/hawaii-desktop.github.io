@@ -1,0 +1,21 @@
+.share-page {
+    text-align: center;
+    background: $secondaryColor;
+    color: $lightColor;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 1.5 * $spacingUnit 0;
+
+    a {
+        font-weight: 700;
+        color: #fff;
+        margin-left: 10px;
+
+        &:hover {
+            color: #fff;
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
+
+// vim: set noai ts=4 sw=4 expandtab:
