@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Testing Hawaii 0.6.0
+permalink: /news/2015/07/06/testing-hawaii-0.6.0/
 ---
 
 A lot of work has been done lately for the upcoming release 0.6.0.
