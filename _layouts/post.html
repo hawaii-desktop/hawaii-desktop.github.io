@@ -4,16 +4,20 @@ layout: default
 
 <div class="container">
     <div class="row">
-        <article class="post">
-            <h1 class="page-header">{{ page.title }}</h1>
+        <article itemscope itemtype="http://schema.org/Article" class="post">
+            <h1 itemprop="name" class="page-header">{{ page.title }}</h1>
 
-            <div class="entry">
+            <div itemprop="articleBody" class="entry">
                 {{ content }}
             </div>
 
             <p class="date">
-                Posted by <a href="{% render_author url %}" target="_blank">{% render_author first_name %} {% render_author last_name %}</a>
-                on {{ page.date | date: "%B %e, %Y" }}
+                Posted by <a href="{% render_author url %}" target="_blank">
+                    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <span itemprop="name">{% render_author first_name %} {% render_author last_name %}</span>
+                    </span>
+                </a>
+                on <span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</span>
             </p>
 
             {% include share-page.html %}
