@@ -1,6 +1,11 @@
 ---
 layout: software
 title: QtAccountsService
+category: Library
+projectName: qtaccountsservice
+projectUrl: https://github.com/hawaii-desktop/qtaccountsservice
+version: 0.6.0
+releaseDate: 2015-08-18
 permalink: /software/qtaccountsservice/
 ---
 
@@ -14,5 +19,3 @@ should be usable in other desktops.
 
 This project offers a library that allows Qt applications to use AccountsService
 with a Qt-style API from C++ and QML.
-
-Fork the code and send pull requests from [here](https://github.com/hawaii-desktop/qtaccountsservice).
