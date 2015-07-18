@@ -1,5 +1,6 @@
 ---
 layout: default
+commentsEnabled: false
 ---
 
 <div class="container">
@@ -11,9 +12,11 @@ layout: default
         </article>
     </div>
 
-    <div class="row">
-        {% include disqus.html %}
-    </div>
+    {% if commentsEnabled %}
+        <div class="row">
+            {% include disqus.html %}
+        </div>
+    {% endif %}
 </div>
 
 <!-- vim: set noai ts=4 sw=4 expandtab: -->
