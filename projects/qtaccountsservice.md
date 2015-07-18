@@ -6,7 +6,7 @@ projectName: qtaccountsservice
 projectUrl: https://github.com/hawaii-desktop/qtaccountsservice
 version: 0.6.0
 releaseDate: 2015-08-18
-permalink: /software/qtaccountsservice/
+permalink: /projects/qtaccountsservice/
 ---
 
 Qt-style API to use freedesktop.org's [AccountsService](http://www.freedesktop.org/wiki/Software/AccountsService) DBus service.
