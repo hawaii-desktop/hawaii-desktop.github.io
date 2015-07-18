@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="container">
+    <div class="row">
+        <article itemscope itemtype="http://schema.org/Article" class="post">
+            <h1 itemprop="name" class="page-header">{{ page.title }}</h1>
+
+            <div itemprop="articleBody" class="entry">
+                {{ content }}
+            </div>
+
+            {% include share-page.html %}
+            {% include disqus.html disqus_identifier=page.disqus_identifier %}
+        </article>
+    </div>
+</div>
+
+<!-- vim: set noai ts=4 sw=4 expandtab: -->
