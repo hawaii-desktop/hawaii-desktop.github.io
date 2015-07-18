@@ -4,10 +4,25 @@ layout: default
 
 <div class="container">
     <div class="row">
-        <article itemscope itemtype="http://schema.org/Article" class="post">
+        <article itemscope itemtype="http://schema.org/SoftwareApplication" class="post">
             <h1 itemprop="name" class="page-header">{{ page.title }}</h1>
 
-            <div itemprop="articleBody" class="entry">
+            {% if page.screenshot %}
+                <img itemprop="screenshot" src="{{ page.screenshot }}">
+            {% endif %}
+
+            <ul>
+                {% if page.projectUrl %}<li><strong>Project URL:</strong> <a itemprop="url" href="{{ page.projectUrl }}">{{ page.projectUrl }}</a></li>{% endif %}
+                {% if page.version %}<li><strong>Latest Version:</strong> <span itemprop="softwareVersion">{{ page.version }}</span></li>{% endif %}
+                {% if page.releaseDate %}<li><strong>Release Date:</strong> <span itemprop="datePublished" content="{{ page.releaseDate | date: "%Y-%m-%d" }}">{{ page.releaseDate | date: "%B %e, %Y" }}</span></li>{% endif %}
+                {% if page.version and page.projectUrl %}
+                    <li><strong>Release Notes:</strong> <a href="{{ page.projectUrl }}/releases/tag/v{{ page.version }}">Version {{ page.version }} on GitHub</a></li>
+                    <li><strong>Download:</strong> <a itemprop="downloadUrl" href="{{ page.projectUrl }}/releases/download/v{{ page.version }}/{{ page.projectName }}-{{ page.version }}.tar.gz">{{ page.projectUrl }}/releases/download/v{{ page.version }}/{{ page.projectName }}-{{ page.version }}.tar.gz</a></li>
+                {% endif %}
+                {% if page.category %}<li><strong>Category:</strong> <span itemprop="applicationCategory">{{ page.category }}</span></li>{% endif %}
+            </ul>
+
+            <div class="entry">
                 {{ content }}
             </div>
 
