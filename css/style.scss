@@ -240,6 +240,56 @@ ul.navlist {
   }
 }
 
+ul.social-icons {
+  overflow: auto;
+
+  li {
+    list-style-type: none;
+    float: left;
+
+    a {
+      color: $white;
+      text-align: center;
+
+      &:hover, &:active {
+        color: $white;
+      }
+
+      i {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        border-radius: 20px;
+        font-size: 25px;
+        background-color: $darkerGray;
+        color: $white;
+        -webkit-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+        text-align: center;
+        padding-top: 15%;
+        margin-right: 10px;
+
+        &:hover {
+          opacity: 0.7;
+        }
+      }
+
+      .fa-facebook {
+        background: #3b5998;
+      }
+      .fa-linkedin {
+        background: #007bb6;
+      }
+      .fa-twitter {
+        background: #00aced;
+      }
+      .fa-google-plus {
+        background: #dd4b39;
+      }
+    }
+  }
+}
+
 footer {
   border-top: 1px solid $darkerGray;
   background-color: $darkGray;
@@ -263,7 +313,7 @@ footer {
     text-align: left;
   }
 
-  ul {
+  ul.footer-links {
     li {
       list-style-type: none !important;
       margin-left: 0;
@@ -279,4 +329,3 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "_highlights";
-@import "_svg-icons";
