@@ -1,4 +1,5 @@
 {% if site.footer-links.dribbble or site.footer-links.email or site.footer-links.facebook or site.footer-links.flickr or site.footer-links.github or site.footer-links.instagram or site.footer-links.linkedin or site.footer-links.pinterest or site.footer-links.rss or site.footer-links.twitter or site.footer-links.stackoverflow %}
+<div class="row">
     <ul class="social-icons">
         {% if site.footer-links.dribbble %}<li><a href="http://dribbble.com/{{ site.footer-links.dribbble }}"><i class="fa fa-dribbble"></i></a></li>{% endif %}
         {% if site.footer-links.email %}<li><a href="mailto:{{ site.footer-links.email }}"><i class="fa fa-envelop-o"></i></a></li>{% endif %}
@@ -14,4 +15,5 @@
         {% if site.footer-links.stackoverflow %}<li><a href="http://stackoverflow.com/{{ site.footer-links.stackoverflow }}"><i class="fa fa-stackoverflow"></i></a></li>{% endif %}
         {% if site.footer-links.youtube %}<li><a href="http://www.youtube.com/channel/{{ site.footer-links.youtube }}"><i class="fa fa-youtube"></i></a></li>{% endif %}
     </ul>
+</div>
 {% endif %}

@@ -96,9 +96,11 @@
         {{ content }}
 
         <footer>
-            {% include social-icons.html %}
-            {% include copyright.html %}
-            {% include footer-links.html %}
+            <div class="container">
+                {% include social-icons.html %}
+                {% include copyright.html %}
+                {% include footer-links.html %}
+            </div>
         </footer>
 
         {% include analytics.html %}
