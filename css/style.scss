@@ -20,9 +20,9 @@ html {
 }
 
 body {
-  background: $white;
+  background: $pageBackground;
   font: 18px/1.4 $titillium;
-  color: $darkGray;
+  color: $pageForeground;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -206,15 +206,6 @@ ul.navlist {
   }
 }
 
-ul.links {
-  li {
-    list-style-type: none !important;
-    margin-left: 0;
-    padding-left: 2em;
-    text-indent: -2em;
-  }
-}
-
 //
 // .main
 //
@@ -249,15 +240,40 @@ ul.links {
   }
 }
 
-.footer {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
-}
-
 footer {
-  padding: 20px 0;
+  border-top: 1px solid $darkerGray;
+  background-color: $darkGray;
+  padding-top: 1em;
+  padding-bottom: 1em;
   text-align: center;
+  color: $gray;
+
+  a {
+    color: $gray;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover, &:active {
+      color: $gray;
+    }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-left: 0;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  ul {
+    li {
+      list-style-type: none !important;
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 2em;
+      text-indent: -2em;
+      text-align: left;
+      text-decoration: none;
+    }
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
