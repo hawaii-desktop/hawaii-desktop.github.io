@@ -314,12 +314,12 @@ footer {
   }
 
   ul.footer-links {
+    padding-left: 0;
+
     li {
       list-style-type: none !important;
       margin-left: 0;
       margin-top: 0;
-      padding-left: 2em;
-      text-indent: -2em;
       text-align: left;
       text-decoration: none;
     }
