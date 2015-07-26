@@ -1,0 +1,26 @@
+---
+---
+
+/**************/
+/* BASE RULES */
+/**************/
+
+body {
+  background-image: url("../images/developer/grid-pattern.png");
+  background-color: #226BB3;
+  color: #fff;
+}
+
+footer {
+  background: none;
+  color: #fff;
+  border-top: none;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+  }
+}
