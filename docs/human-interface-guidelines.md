@@ -65,7 +65,17 @@ that could just benefit from further technical information.
 
 Before getting into the details we need to clarify what design is about.
 
-1. **Design is not something you can add later.** Whether you realize it or not, you are constantly designing anything you build. It is an intrinsic part of creating something. Design is not just what something looks like. It's not just the colors and fonts. Design is how it works. When you decide to add a button that does a thing, that is design. You made a decision to add a button with an icon or a label and where that button went and the size and color of that button. Decisions are designs.
+1. **Design is not something you can add later.**
+Design is an integral part of building something.
+It's not just colors and fonts, design is how things work.
+When you add a button to your application, that is design. You made a decision to
+add a button with a particular label, icon, location and size.
+The decisions you make are designs.
+
+2. **Design is not an opinion** Design is testable, therefore one design will
+meet a specific goal better than another one.
+Design is about solving a specific problem and so you can objectively
+compare the effectiveness of two designs at solving those problems.
 
 ## Starting with the fundamentals
 
