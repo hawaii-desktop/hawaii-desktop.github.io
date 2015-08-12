@@ -12,6 +12,7 @@ Install the following stuff the first time:
 sudo dnf install -y ruby-devel rubygem-rake rubygem-execjs rubygem-therubyracer
 gem install github-pages
 gem install jekyll-contentblocks
+gem install jekyll-minifier
 ```
 
 Serve the pages locally with:

@@ -72,6 +72,11 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-contentblocks
+  - jekyll-minifier
+
+# Exclude certain resources from minimization
+jekyll-minifier:
+  exclude: 'atom.xml'
 
 # Exclude these files from your production _site
 exclude:
