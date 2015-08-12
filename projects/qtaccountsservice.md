@@ -5,7 +5,7 @@ category: Library
 projectName: qtaccountsservice
 projectUrl: https://github.com/hawaii-desktop/qtaccountsservice
 version: 0.6.0
-releaseDate: 2015-08-18
+releaseDate: 2015-07-18
 group: projects
 permalink: /projects/qtaccountsservice/
 ---
