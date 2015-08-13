@@ -7,6 +7,8 @@ permalink: /it/cookie-policy/
 Informativa estesa ai sensi del provv. n.229/2014 Garante Privacy ei
 ss. mm. ii, in G.U. 3 giugno 2014. ([provvedimento 229 dell'8 maggio 2014](http://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/3118884))
 
+English version available [here](/cookie-policy).
+
 # Introduzione
 
 Il Garante della Privacy ha recepito una direttiva europea che impone agli

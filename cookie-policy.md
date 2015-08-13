@@ -8,6 +8,8 @@ permalink: /cookie-policy/
 drawn up in accordance with the regulation issued by the Italian data
 protection authority 08.05.2014**
 
+Informativa originale in italiano [qui](/it/cookie-policy).
+
 # What are cookies?
 
 Cookies are small strings of text that websites visited by a user send to
