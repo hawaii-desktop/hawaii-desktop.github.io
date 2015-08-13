@@ -14,12 +14,12 @@ permalink: /privacy-policy/
 
 These are just the key points.
 
-Since this web site uses cookies, you should also read the [Cookie Policy](/cookie-policy)
+Since this web site uses cookies, you should also read the Cookie Policy
 that integrates this policy.
 
 Cookie disclosure statement pursuant to art. 13 of the Italian Privacy Code
 drawn up in accordance with the regulation issued by the Italian data
-protection authority 08.05.2014, is available [here](/it/cookie-policy).
+protection authority 08.05.2014: [ITA](/it/cookie-policy), [ENG](/cookie-policy).
 
 # Updates to this policy
 
