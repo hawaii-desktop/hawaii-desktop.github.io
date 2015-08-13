@@ -6,7 +6,7 @@ permalink: /cookie-policy/
 
 **Cookie disclosure statement pursuant to art. 13 of the Italian Privacy Code
 drawn up in accordance with the regulation issued by the Italian data
-protection authority 08.05.2014**
+protection authority [08.05.2014](http://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/3118884)**
 
 Informativa originale in italiano [qui](/it/cookie-policy).
 
