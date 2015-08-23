@@ -20,3 +20,8 @@ should be usable in other desktops.
 
 This project offers a library that allows Qt applications to use AccountsService
 with a Qt-style API from C++ and QML.
+
+You can find this application on the following distributions:
+
+* [Fedora](https://apps.fedoraproject.org/packages/qt5-qtaccountsservice)
+* [ArchLinux](https://aur4.archlinux.org/packages/qtaccountsservice/)
