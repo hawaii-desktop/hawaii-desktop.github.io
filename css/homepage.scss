@@ -1,12 +1,27 @@
 ---
 ---
 
-.background {
-    background-size: 100% auto;
-    height: auto;
-    background-repeat: no-repeat;
+.showcase1 {
     background-image: url(/images/header-bg.jpg);
     background-position: center top;
+    background-repeat: no-repeat;
+
+    img {
+        display: inline-block;
+    }
+}
+
+.upcoming {
+    color: #e8eded;
+    background: #697e8d none repeat scroll 0% 0%;
+}
+
+.upcoming-header {
+    background: #6b7b87 none repeat scroll 0% 0%;
+}
+
+.upcoming-lower {
+    background: #586875 none repeat scroll 0% 0%;
 }
 
 // vim: set noai ts=4 sw=4 expandtab:
