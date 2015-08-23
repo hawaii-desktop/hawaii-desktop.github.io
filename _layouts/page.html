@@ -3,20 +3,24 @@ layout: default
 commentsEnabled: false
 ---
 
-<div class="container">
-    <div class="row">
-        <article class="page">
-            <h1 class="page-header">{{ page.title }}</h1>
+<div class="jumbotron centered">
+    <h1>{{ page.title }}</h1>
+</div>
 
-            {{ content }}
-        </article>
-    </div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-6 col-md-offset-3">
+            <article class="page">
+                {{ content }}
+            </article>
 
-    {% if commentsEnabled %}
-        <div class="row">
-            {% include disqus.html %}
+            {% if commentsEnabled %}
+            <div class="row">
+                {% include disqus.html %}
+            </div>
+            {% endif %}
         </div>
-    {% endif %}
+    </div>
 </div>
 
 <!-- vim: set noai ts=4 sw=4 expandtab: -->
