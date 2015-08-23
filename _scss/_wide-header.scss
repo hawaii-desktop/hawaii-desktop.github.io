@@ -1,0 +1,25 @@
+/**
+ * Full size header with background.
+ */
+
+.wide {
+    width: 100%;
+    min-height: 200px;
+    background-size: cover;
+    color: #fff;
+    padding: 1em;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+
+        small {
+            color: #f1f1f1;
+        }
+    }
+}
+
+    .title {
+        background-image: url(/images/header-bg.jpg);
+    }
+
+// vim: set noai ts=4 sw=4 expandtab:

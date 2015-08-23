@@ -168,6 +168,52 @@ ul.navlist {
 }
 
 /*********************/
+/* JUMBOTRON         */
+/*********************/
+
+.jumbotron {
+    color: #fff;
+    background: #000 url(/images/header-bg.jpg) center center;
+    background-size: cover;
+    background-color: #F7F5F4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+
+    p {
+        font-size: inherit;
+        color: inherit;
+    }
+
+    small {
+        color: inherit;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        color: inherit;
+        line-height: 1.3em;
+        margin: 0;
+    }
+
+    a {
+        text-decoration: underline;
+        color: inherit;
+    }
+
+    a.btn {
+        text-decoration: none;
+    }
+}
+
+.container .jumbotron {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/*********************/
 /* LAYOUT / SECTIONS */
 /*********************/
 
