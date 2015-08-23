@@ -1,0 +1,66 @@
+// From http://neoelemento.com/change-opacity-of-bootstrap-nav-on-scrolling
+// and then translated to Sass
+
+.navbar {
+    background-color: transparent;
+    background: transparent;
+    border: none;
+    color: white;
+    z-index: 100;
+    margin-bottom: 0;
+    border-radius: 0;
+    box-shadow: none;
+    transition: background-color 1s ease 0s; 
+
+    &.opaque {
+        background-color: white;
+        background: white;
+        transition: background-color 1s ease 0s;
+        box-shadow: 0px 0px 4px #969696;
+        color: #969696;
+
+        .navbar-brand {
+            color: #969696;
+            //transition: color 1s ease 0s;
+        }
+
+        .navbar-nav > li > a {
+            color: #969696;
+            //transition: color 1s ease 0s;
+        }
+
+        .navbar-nav > li > a:active {
+            text-decoration: underline;
+        }
+    }
+}
+
+.navbar-default {
+    .navbar-brand {
+        color: white;
+        font-weight: 500;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    .navbar-nav > li > a {
+        color: white;
+        font-weight: 500;
+        font-size: 1em;
+        text-transform: lowercase;
+    }
+
+    .navbar-nav > li > a:hover, .navbar-nav > li > a:active {
+        color: white;
+        text-decoration: underline;
+    }
+
+    .navbar-nav > li > a:visited, .navbar-nav > li > a:focus {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+// vim: set noai ts=4 sw=4 expandtab:
