@@ -2,27 +2,33 @@
 layout: default
 ---
 
-<div class="container">
-    <div class="row">
-        <article itemscope itemtype="http://schema.org/Article" class="post">
-            <h1 itemprop="name" class="page-header">{{ page.title }}</h1>
+<div class="jumbotron centered">
+    <h1>News</h1>
+</div>
 
-            <div itemprop="articleBody" class="entry">
-                {{ content }}
-            </div>
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-6 col-md-offset-3">
+            <article itemscope itemtype="http://schema.org/Article" class="post">
+                <h1 itemprop="name" class="page-header">{{ page.title }}</h1>
 
-            <p class="date">
-                Posted by <a href="{% render_author url %}" target="_blank">
-                    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                        <span itemprop="name">{% render_author first_name %} {% render_author last_name %}</span>
-                    </span>
-                </a>
-                on <span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</span>
-            </p>
+                <div itemprop="articleBody" class="entry">
+                    {{ content }}
+                </div>
 
-            {% include share-page.html %}
-            {% include disqus.html disqus_identifier=page.disqus_identifier %}
-        </article>
+                <p class="date">
+                    Posted by <a href="{% render_author url %}" target="_blank">
+                        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                            <span itemprop="name">{% render_author first_name %} {% render_author last_name %}</span>
+                        </span>
+                    </a>
+                    on <span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</span>
+                </p>
+
+                {% include share-page.html %}
+                {% include disqus.html disqus_identifier=page.disqus_identifier %}
+            </article>
+        </div>
     </div>
 </div>
 
