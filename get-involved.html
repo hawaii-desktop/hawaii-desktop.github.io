@@ -4,22 +4,209 @@ title: Get Involved
 permalink: /get-involved/
 ---
 
-<div class="container-fluid colored-background" style="background-color: #f3e395">
-    <div class="row-fluid">
-        <div class="col-md-4 col-md-offset-4">
-            <div class="col-md-6">
-                <h4>Translations</h4>
+{% contentfor extra_styles %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/get-involved.css">
+{% endcontentfor %}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="centered">
+            <h1>
+                Get Involved<br>
+                <small>
+                    Help us make Hawaii better and join the team!
+                </small>
+            </h1>
+
+            <a class="btn btn-lg btn-odd" href="#translations" role="button">Translations</a>
+            <a class="btn btn-lg btn-even" href="#web" role="button">Web</a>
+            <a class="btn btn-lg btn-odd" href="#test" role="button">Test</a>
+        </div>
+    </div>
+</div>
+
+<!--
+    Translations
+-->
+
+<a name="translations"></a>
+<div class="jumbotron odd odd-header centered">
+    <h1>Translations</h1>
+    <small>
+        Hawaii is created for all people around the World;<br>
+        help us make it available to everyone into their language.
+    </small>
+</div>
+<div class="jumbotron odd">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-3 col-md-offset-3">
+                <h2>Do you want to help translate Hawaii?</h2>
                 <p>
-                    Hawaii is created for all people around the World; help us make it
-                    available to everyone into their language.
+                    This is awesome! We're always in need of Translators.
                 </p>
-                <a class="btn btn-primary" href="https://www.transifex.com/projects/p/hawaii/">Translate</a>
+                <p>
+                    If a translation team for you language already exist,
+                    join their effort regardless. There will be more strings to translate
+                    in the future, also reviewing existing translations would be
+                    very helpful.
+                </p>
+                <p>
+                    All Hawaii Translators must create an account on <a href="https://www.transifex.com/" target="_blank">Transifex</a>
+                    as their service powers our translation management.
+                </p>
             </div>
-            <div class="col-md-6">
-                <img src="{{ site.baseurl }}/images/worldmap.png">
+            <div class="col-md-3">
+                <h2>How to become a Hawaii Translator</h2>
+                <p>
+                    English is the source language. You must be able to translate
+                    from English to your desired language.
+                </p>
+                <p>The steps are:</p>
+                <ol>
+                    <li>Signup for an account on <a href="https://www.transifex.com/signup/" target="_blank">Transifex</a>.</li>
+                    <li>Verify your email address, log in and then go to the
+                        <a href="https://www.transifex.com/hawaii/hawaii/dashboard/" target="_blank">Hawaii project page</a>.</li>
+                    <li>Choose the language you want to translate or, if it isn't listed, click the
+                        <strong>Request Language</strong> button.</li>
+                    <li>If you are requesting a new language, select or search for it in the
+                        dialog box that will appear.</li>
+                    <li>If your desired language already exist, click on the <strong>Language</strong>
+                        link and then click the <strong>Join Team</strong> button on the next page.</li>
+                    <li>Click on the resource you want to work in.</li>
+                    <li>Click the <strong>Translate Now</strong> button to use the Transifex editor or,
+                        if you prefer, download the file for use offline and then upload your changes.</li>
+                    <li>If you are using the Transifex editor, choose the option &quot;Untranslated&quot;
+                        and you will see all the untranslated strings on the left bar.</li>
+                </ol>
             </div>
         </div>
     </div>
 </div>
+<div class="jumbotron odd odd-lower centered hidden-xs">
+    <h2>
+        Ready to Translate Hawaii?&nbsp;&nbsp;
+        <a class="btn btn-lg btn-odd" href="https://www.transifex.com/projects/p/hawaii/" target="_blank"><i class="fa fa-globe"></i>&nbsp;&nbsp;Go to Transifex</a>
+    </h2>
+</div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!--
+    Web
+-->
+
+<a name="web"></a>
+<div class="jumbotron even even-header centered">
+    <h1>Web</h1>
+    <small>
+        This Web site can be improved by anyone, we are waiting
+        for your improvements and design.
+    </small>
+</div>
+<div class="jumbotron even">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-3 col-md-offset-3">
+            <h2>Do you want to contribute to the Hawaii Web site?</h2>
+            <p>
+                Brilliant! There is never enough contributors to the Web site.
+            </p>
+            <p>
+                This is the easiest module to contribute to. It is statically generated using
+                <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>.
+            </p>
+            <p>
+                Pages are written either with <a href="http://en.wikipedia.org/wiki/Markdown" target="_blank">Markdown</a>
+                or <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>, while styles are generated
+                from <a href="http://sass-lang.com/" target="_blank">Sass</a> (people familiar with CSS won't have
+                any problem with it).
+            </p>
+            </div>
+            <div class="col-md-3">
+                <h2>How to become a Hawaii Web developer</h2>
+                <p>
+                    You must be familiar with GitHub <a href="https://help.github.com/articles/creating-a-pull-request" target="_blank">pull requests</a>
+                    and with the technologies mentioned above.
+                </p>
+                <p>The steps are:</p>
+                <ol>
+                    <li>Signup for an account on <a href="https://help.github.com/articles/signing-up-for-a-new-github-account/" target="_blank">GitHub</a>.</li>
+                    <li>Verify your email address, log in and then go to the
+                        <a href="https://github.com/hawaii-desktop/hawaii-desktop.github.io" target="_blank">Web site repository</a>.</li>
+                    <li>Fork the repository by clicking on the <strong>Fork</strong> button,
+                        once done it will automatically open the page with the fork.</li>
+                    <li>Open a terminal</li>
+                    <li>Clone your fork (the address is in the fork repository page).</li>
+                    <li>Install the development tools as explained in
+                        <a href="https://github.com/hawaii-desktop/hawaii-desktop.github.io#development-setup" target="_blank">this paragraph</a>.</li>
+                    <li>Serve the pages locally with: <pre>jekyll serve</pre></li>
+                    <li>Edit the pages and test them in the browser pointing to <a href="http://localhost:4000" target="_blank">localhost:4000</a>.</li>
+                    <li>Once you are done commit the changes and push to your repository, then make a pull request.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron even even-lower centered hidden-xs">
+    <h2>
+        Ready to develop the Hawaii Web site?&nbsp;&nbsp;
+        <a class="btn btn-lg btn-even" href="https://github.com/hawaii-desktop/hawaii-desktop.github.io" target="_blank"><i class="fa fa-github"></i> Fork on GitHub</a>
+    </h2>
+</div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+<!--
+    Test
+-->
+
+<a name="test"></a>
+<div class="jumbotron odd odd-header centered">
+    <h1>Test</h1>
+    <small>
+        Making high quality software requires lots of testing.<br>
+        Reporting errors or possible improvements is a valuable way
+        to help with the project and is a great way to start out.
+    </small>
+</div>
+<div class="jumbotron odd">
+    <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-3 col-md-offset-3">
+                <h2>Do you want to test Hawaii?</h2>
+                <p>
+                    Wonderful! The more testers the better.
+                </p>
+                <p>
+                    Go grab a nightly image, make a USB flash drive, boot your laptop
+                    or desktop PC with it and report issues <a href="https://github.com/hawaii-desktop/hawaii/issues" target="_blank">here</a>.
+                </p>
+            </div>
+            <div class="col-md-3">
+                <h2>How to become a Hawaii Reporter</h2>
+                <p>
+                    After having downloaded and tested Hawaii, you should report any issue
+                    that you might have encountered.
+                </p>
+                <p>The steps are:</p>
+                <ol>
+                    <li>Signup for an account on <a href="https://help.github.com/articles/signing-up-for-a-new-github-account/" target="_blank">GitHub</a>.</li>
+                    <li>Verify your email address, log in and then go to the
+                        <a href="https://github.com/hawaii-desktop/hawaii/issues" target="_blank">issue tracker</a>.</li>
+                    <li>Press the <strong>New Issue</strong> button and fill with details.</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="jumbotron odd odd-lower centered hidden-xs">
+    <h2>
+        Ready to Test Hawaii?&nbsp;&nbsp;
+        <a class="btn btn-lg btn-odd" href="/download/" target="_blank"><i class="fa fa-download"></i>&nbsp;&nbsp;Download</a>
+    </h2>
+</div>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
 <!-- vim: set noai ts=4 sw=4 expandtab: -->
