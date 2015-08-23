@@ -1,6 +1,6 @@
 ---
 layout: default
-commentsEnabled: false
+commentsEnabled: true
 ---
 
 <div class="jumbotron centered">
@@ -13,14 +13,16 @@ commentsEnabled: false
             <article class="page">
                 {{ content }}
             </article>
-
-            {% if commentsEnabled %}
-            <div class="row">
-                {% include disqus.html %}
-            </div>
-            {% endif %}
         </div>
     </div>
+
+    {% if page.commentsEnabled %}
+        <div class="row-fluid">
+            <div class="col-md-6 col-md-offset-3">
+                {% include disqus.html %}
+            </div>
+        </div>
+    {% endif %}
 </div>
 
 <!-- vim: set noai ts=4 sw=4 expandtab: -->
