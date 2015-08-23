@@ -1,0 +1,12 @@
+{% contentfor extra_styles %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/swipebox.css">
+{% endcontentfor %}
+
+{% contentfor extra_scripts %}
+    <script src="{{ site.baseurl }}/js/jquery.swipebox.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            $(".swipebox").swipebox();
+        });
+    </script>
+{% endcontentfor %}
