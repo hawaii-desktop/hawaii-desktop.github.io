@@ -8,3 +8,4 @@ Credits
 * World map courtesy of [Wikimedia](https://commons.wikimedia.org/wiki/File:World_map_blank_without_borders.svg).
 * [Scroll to top](http://www.webtipblog.com/adding-scroll-top-button-website/)
 * [Transparent navbar](http://neoelemento.com/change-opacity-of-bootstrap-nav-on-scrolling)
+* Desktop PC image courtesy of [mockuphone.com](http://mockuphone.com/about)
