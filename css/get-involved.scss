@@ -54,6 +54,10 @@ fieldset[disabled] .btn-odd.active {
 .odd {
     color: #e8eded;
     background: #697e8d none repeat scroll 0% 0%;
+
+    .panel-body {
+        background-color: #697e8d;
+    }
 }
 
 .odd-header {
@@ -117,6 +121,10 @@ fieldset[disabled] .btn-even.active {
 .even {
     color: #4c6569;
     background: #e9e6c2 none repeat scroll 0% 0%;
+
+    .panel-body {
+        background-color: #e9e6c2;
+    }
 }
 
 .even-header {
