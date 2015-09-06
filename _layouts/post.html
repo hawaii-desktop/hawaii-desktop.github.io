@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign author = site.authors[page.author] %}
+
 <div class="jumbotron centered">
     <h1>News</h1>
 </div>
@@ -17,9 +19,9 @@ layout: default
                 </div>
 
                 <p class="date">
-                    Posted by <a href="{% render_author url %}" target="_blank">
+                    Posted by <a href="{{ author.web }}" target="_blank">
                         <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-                            <span itemprop="name">{% render_author first_name %} {% render_author last_name %}</span>
+                            <span itemprop="name">{{ author.first_name }} {{ author.last_name }}</span>
                         </span>
                     </a>
                     on <span itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %e, %Y" }}</span>

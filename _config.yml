@@ -52,6 +52,16 @@ baseurl: ""
 # Set the number of posts per page
 paginate: 4
 
+# Authors
+authors:
+  plfiorini:
+    first_name: "Pier Luigi"
+    last_name: "Fiorini"
+    gravatar: "63d069a6a87ca59f2cfbf270fa16abbf"
+    web: "http://plfiorini.blogspot.com/"
+    twitter: "plfiorini"
+    github: "plfiorini"
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
