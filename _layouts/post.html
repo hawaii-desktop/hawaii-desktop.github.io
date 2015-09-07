@@ -14,6 +14,12 @@ layout: default
             <article itemscope itemtype="http://schema.org/Article" class="post">
                 <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
                 <meta itemprop="description" content="{{ content | strip_html | truncatewords: 40 }}" />
+                <meta itemprop="headline" content="{{ page.title }}" />
+                {% if page.image %}
+                    <meta itemprop="image" content="{{ site.url }}/images/pages/{{ page.image }}" />
+                {% else %}
+                    <meta itemprop="image" content="{{ site.url }}/images/galleries/screenshots/Desktop1.png" />
+                {% endif %}
 
                 <h1 itemprop="name" class="page-header">{{ page.title }}</h1>
 
