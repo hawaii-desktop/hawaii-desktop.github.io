@@ -7,6 +7,8 @@ permalink: /news/2015/07/18/qtaccountsservice-0.6.0/
 
 We are proud to announce the immediate availability of QtAccountsService 0.6.0.
 
+<!-- more -->
+
 Highlights of this release:
 
 * Use extra-cmake-modules

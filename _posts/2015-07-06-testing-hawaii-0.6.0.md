@@ -8,6 +8,8 @@ permalink: /news/2015/07/06/testing-hawaii-0.6.0/
 A lot of work has been done lately for the upcoming release 0.6.0.
 Below a video that shows the bootstrap of the Hawaii development snapshot.
 
+<!-- more -->
+
 As you can see now SDDM is capable of running Wayland sessions and the desktop
 startup is really fast.
 
