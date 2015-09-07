@@ -29,12 +29,8 @@
 
         <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml">
 
-        <!-- OpenGraph -->
-        <meta property="og:type" content="product">
-        <meta property="og:title" content="Hawaii">
-        <meta property="og:url" content="http://hawaiios.org/">
-        <meta property="og:site_name" content="Hawaii">
-        <meta property="og:image" content="http://hawaiios.org/images/galleries/screenshots/Desktop1.png">
+        <!-- OpenGraph and such -->
+        {% include opengraph.html %}
         {% include twitter-card.html %}
 
         <!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
