@@ -79,6 +79,12 @@ sass:
   sass_dir: _scss
   style: :compressed
 
+# HTML compression options
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
 # Use the following plug-ins
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
