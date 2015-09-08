@@ -10,4 +10,5 @@ Hacking
 
 - [OpenGraph debugger](https://developers.facebook.com/tools/debug/)
 - [Twitter card debugger](https://cards-dev.twitter.com/validator)
-- [Structured Data Testing Tool](https://developers.google.com/structured-data/testing-tool/)
+- [Google Structured data testing Tool](https://developers.google.com/structured-data/testing-tool/)
+- [Yande Structured data testing tool](https://webmaster.yandex.com/microtest.xml)
