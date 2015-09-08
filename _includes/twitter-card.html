@@ -1,6 +1,6 @@
 <meta name="twitter:site" content="@{{ site.footer-links.twitter }}">
 <meta name="twitter:creator" content="@{{ site.authors.plfiorini.twitter }}">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="{{ summary_large_image }}">
 {% if page.title %}
     <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
@@ -15,7 +15,7 @@
     <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/pages/{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/pages/{{ page.image }}">
 {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/galleries/screenshots/Desktop1.png">
+    <meta name="twitter:image" content="{{ site.url }}/images/galleries/screenshots/Desktop1.png">
 {% endif %}
