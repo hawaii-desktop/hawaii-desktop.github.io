@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Informativa estesa sui cookie
+i18n:
+  - lang: en
+    url: /cookie-policy/
 permalink: /it/cookie-policy/
 ---
 
