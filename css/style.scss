@@ -309,6 +309,17 @@ ul.navlist {
   }
 }
 
+.page {
+  box-shadow: 1px 1px 5px #888;
+  border-radius: 5px;
+  padding: 0 1em 1em 1em;
+  background-color: #fff;
+
+  .comments {
+    margin-top: 10px;
+  }
+}
+
 ul.social-icons {
   overflow: auto;
 
