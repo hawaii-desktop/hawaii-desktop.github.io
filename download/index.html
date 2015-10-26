@@ -6,18 +6,9 @@ commentsEnabled: true
 permalink: /download/
 ---
 
-<h3>Version 0.6.0 Snapshots</h3>
-<p>Latest Snapshot Released on: 25 Oct 2015</p>
+<h2>Version 0.6.0 - Snapshots</h2>
 
-<h4>64-bit image</h4>
-<a class="btn btn-primary" href="http://sourceforge.net/projects/mauios/files/snapshots/hawaii-20151025-x86_64.iso/download">Download</a>
-<ul>
-    <li><strong>SHA1:</strong> 748781b6280a6e99830621f293ec3333da52a785</li>
-    <li><strong>SHA256:</strong> f2b7e5bf1863b8c239adc77a5ea8be54e8c945da7f0fc496eaac015998b6b083</li>
-</ul>
-
-<h4>Release Notes</h4>
-
+<h3>Hardware Support</h3>
 <p>
 Hardware supported by Open Source drivers should work.
 Here's the list of supported GPUs:
@@ -28,19 +19,21 @@ Here's the list of supported GPUs:
 <li>AMD/ATI: using the open source driver except for cards supported by radeonsi</li>
 <li>NVIDIA: cards supported by the nouveau open source driver</li>
 <li>VMware</li>
-<li>QEMU and VirtualBox are not currently supported due to lack of drivers.</li>
+<li>QEMU with QXL</li>
 </ul>
 
-<p>
-If you try the ISO image on VMware, please enable 3D acceleration.
-</p>
+<p>VirtualBox is not currently supported due to lack of drivers for Wayland.</p>
 
-<p>
-To do so select the virtual machine, click on the VM → Settings menu item, now in the Hardware tab select Display and check Accelerate 3d graphics.
-</p>
+<h3>Download</h3>
+
+<h4>64-bit image (25 Oct 2015)</h4>
+<a class="btn btn-primary" href="http://sourceforge.net/projects/mauios/files/snapshots/hawaii-20151025-x86_64.iso/download">Download</a>
+<ul>
+    <li><strong>SHA1:</strong> 748781b6280a6e99830621f293ec3333da52a785</li>
+    <li><strong>SHA256:</strong> f2b7e5bf1863b8c239adc77a5ea8be54e8c945da7f0fc496eaac015998b6b083</li>
+</ul>
 
 <h4>Known Issues</h4>
-
 <p>
 The user interface is not fully rendered on virtual machines so it's currently best to
 test the snapshots on bare metal.
