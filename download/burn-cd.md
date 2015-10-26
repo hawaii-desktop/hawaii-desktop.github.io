@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: leftcolumn
 title: Burn the Hawaii CD
 group: download
 permalink: /download/burn-cd/

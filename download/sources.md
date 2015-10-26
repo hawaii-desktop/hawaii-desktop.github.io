@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: leftcolumn
 title: Sources from git
 group: download
 permalink: /download/sources/

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: leftcolumn
 title: Make a USB stick
 group: download
 permalink: /download/make-usb-stick/
