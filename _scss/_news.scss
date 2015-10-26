@@ -1,0 +1,61 @@
+.posts {
+    .post {
+        .date {
+            float: left;
+            width: 85px;
+            padding: 0 5px;
+            margin-left: -100px;
+            text-transform: uppercase;
+            text-align: center;
+
+            .day {
+                display: block;
+                width: 62px;
+                height: 62px;
+                border-radius: 31px;
+                line-height: 62px;
+                margin: 0 auto;
+                text-align: center;
+                overflow: hidden;
+                font-weight: normal;
+                font-size: 31px;
+                font-style: normal;
+                color: #fff;
+                background-color: $secondaryColor;
+            }
+
+            .month {
+                padding-top: 5px;
+            }
+
+            .year {
+                padding-top: 5px;
+            }
+        }
+
+        .entry {
+            border-bottom: 1px solid #d6dde3;
+
+            h3 {
+                margin-bottom: 18px;
+            }
+
+            .tagline {
+                font-size: 88.2%;
+                margin-bottom: 1em;
+
+                .categories {
+                    float: left;
+                }
+
+                .comments {
+                    //float: right;
+                    float: left;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+// vim: set noai ts=4 sw=4 expandtab:

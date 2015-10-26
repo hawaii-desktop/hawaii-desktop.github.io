@@ -8,6 +8,7 @@
 @import "_reset";
 @import "_variables";
 @import "_breadcrumbs";
+@import "_news";
 @import "_share-page";
 @import "_scroll-top";
 @import "_navbar-transparent";
@@ -273,52 +274,6 @@ ul.navlist {
 //
 // .main
 //
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
-}
-
-.post {
-  box-shadow: 1px 1px 5px #888;
-  border-radius: 5px;
-  padding: 0 1em 1em 1em;
-  background-color: #fff;
-
-  blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
-    padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
-  }
-
-  .comments {
-    margin-top: 10px;
-  }
-
-  .read-more {
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-}
-
-.page {
-  box-shadow: 1px 1px 5px #888;
-  border-radius: 5px;
-  padding: 0 1em 1em 1em;
-  background-color: #fff;
-
-  .comments {
-    margin-top: 10px;
-  }
-}
 
 ul.social-icons {
   overflow: auto;
