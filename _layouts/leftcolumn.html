@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+<div class="jumbotron centered">
+    <h1>{{ page.title }}</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="col-md-2 col-md-offset-2">
+            <h3>More</h3>
+            <ul>
+                {% for pg in site.pages %}
+                    {% if pg.group == page.group %}
+                        <li><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="col-md-6">
+            <div class="page">
+                <article>
+                    {{ content }}
+                </article>
+
+                {% if page.commentsEnabled %}
+                    {% include disqus.html %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- vim: set noai ts=4 sw=4 expandtab: -->
