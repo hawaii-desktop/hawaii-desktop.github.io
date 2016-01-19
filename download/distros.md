@@ -24,7 +24,7 @@ We reccomend using these packages because they are more updated.
 * [hawaii-shell-git](https://aur.archlinux.org/packages/hawaii-shell-git/)
 * [hawaii-qt5-wayland](https://aur.archlinux.org/packages/hawaii-qt5-wayland/)
 * [hawaii-icon-theme-git](https://aur.archlinux.org/packages/hawaii-icon-theme-git/)
-* [hawaii-baseapps-git](https://aur.archlinux.org/packages/hawaii-baseapps-git/)
+* [hawaii-workspace-git](https://aur.archlinux.org/packages/hawaii-workspace-git/)
 * [hawaii-system-preferences-git](https://aur.archlinux.org/packages/hawaii-system-preferences-git/)
 * [hawaii-terminal-git](https://aur.archlinux.org/packages/hawaii-terminal-git/)
 * [hawaii-wallpapers-git](https://aur.archlinux.org/packages/hawaii-wallpapers-git/)
@@ -37,7 +37,7 @@ We reccomend using these packages because they are more updated.
 * [hawaii-shell](https://aur.archlinux.org/packages/hawaii-shell/)
 * [hawaii-qt5-wayland](https://aur.archlinux.org/packages/hawaii-qt5-wayland/)
 * [hawaii-icon-theme](https://aur.archlinux.org/packages/hawaii-icon-theme/)
-* [hawaii-baseapps](https://aur.archlinux.org/packages/hawaii-baseapps/)
+* [hawaii-workspace](https://aur.archlinux.org/packages/hawaii-workspace/)
 * [hawaii-system-preferences](https://aur.archlinux.org/packages/hawaii-system-preferences/)
 * [hawaii-terminal](https://aur.archlinux.org/packages/hawaii-terminal/)
 * [hawaii-wallpapers](https://aur.archlinux.org/packages/hawaii-wallpapers/)
@@ -52,5 +52,16 @@ should be able to run a Hawaii session from a login manager.
 * [greenisland](https://apps.fedoraproject.org/packages/greenisland)
 * [libhawaii](https://apps.fedoraproject.org/packages/libhawaii)
 * [hawaii-shell](https://apps.fedoraproject.org/packages/hawaii-shell)
+* [hawaii-workspace](https://apps.fedoraproject.org/packages/hawaii-workspace)
 * [hawaii-icon-theme](https://apps.fedoraproject.org/packages/hawaii-icon-theme)
 * [hawaii-widget-styles](https://apps.fedoraproject.org/packages/hawaii-widget-styles)
+* [fluid](https://apps.fedoraproject.org/packages/fluid)
+
+Currently under review:
+
+* [hawaii-system-preferences](https://bugzilla.redhat.com/show_bug.cgi?id=hawaii-system-preferences)
+
+Missing:
+
+* hawaii-terminal
+* swordfish
