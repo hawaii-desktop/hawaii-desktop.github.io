@@ -46,8 +46,6 @@ We reccomend using these packages because they are more updated.
 ## Fedora
 
 Hawaii is available in the Fedora repository.
-Although the most recent upstream modules are not yet packages, you
-should be able to run a Hawaii session from a login manager.
 
 * [greenisland](https://apps.fedoraproject.org/packages/greenisland)
 * [libhawaii](https://apps.fedoraproject.org/packages/libhawaii)
@@ -55,11 +53,8 @@ should be able to run a Hawaii session from a login manager.
 * [hawaii-workspace](https://apps.fedoraproject.org/packages/hawaii-workspace)
 * [hawaii-icon-theme](https://apps.fedoraproject.org/packages/hawaii-icon-theme)
 * [hawaii-widget-styles](https://apps.fedoraproject.org/packages/hawaii-widget-styles)
+* [hawaii-system-preferences](https://apps.fedoraproject.org/packages/hawaii-system-preferences)
 * [fluid](https://apps.fedoraproject.org/packages/fluid)
-
-Currently under review:
-
-* [hawaii-system-preferences](https://bugzilla.redhat.com/show_bug.cgi?id=hawaii-system-preferences)
 
 Missing:
 
