@@ -7,26 +7,31 @@ layout: default
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/bootstrap.css">
 {% endcontentfor %}
 
-<div class="jumbotron showcase1 centered">
-    <img class="img-responsive" src="/images/hawaii-desktop.png">
-</div>
+<section id="intro">
+    <article class="centered">
+        <img class="img-responsive" src="/images/hawaii-desktop.png">
+        <h1>Hawaii</h1>
+        <a class="btn btn-primary" role="button" href="/download">Download</a>
+    </article>
+</section>
 
-<div class="jumbotron upcoming upcoming-lower centered">
-    <h1 class="visible-print-block hidden-xs">Hawaii 0.7.0 Coming Soon</h1>
-    <h1 class="visible-xs-inline">Hawaii 0.7.0</h1>
+<section id="next-release">
     <div class="container-fluid">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-4 col-md-offset-4 centered">
+            <h4>Hawaii 0.7.0</h4>
             <div class="progress" style="height: 2em">
                 <div class="progress-bar progress-bar-striped" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 5%; font-size: 1.5em; line-height: 1.1em">5%</div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="jumbotron centered">
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-md-6 col-md-offset-3">
+<hr>
+
+<section id="what-is">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-offset-3 centered">
                 Hawaii is a lightweight Linux-based operating system, a suite of software that makes your computer run.
                 It uses the Hawaii Shell desktop workspace. You can use the Hawaii operating system to replace or to
                 run alongside of other operating systems such as Microsoft Windows™ or Mac OS X™ although it's not
@@ -35,42 +40,48 @@ layout: default
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="jumbotron upcoming upcoming-header centered">
-    <div class="container-fluid">
-        <div class="row-fluid">
-            <div class="col-md-3 col-md-offset-3">
-                <i class="fa fa-code-fork fa-circle fa-5x"></i>
-                <h2>Open Source and Open Governance</h2>
+<hr>
+
+<section id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 centered">
+                <span class="fa-stack fa-3x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-code-fork fa-stack-1x fa-inverse"></i></span>
+                <h6>Open Source and Open Governance</h6>
                 <p>
                     The Hawaii Project is a meritocratic, consensus-based community interested
                     in developing the Hawaii system. We believe in the power of Open Source,
                     Free Software and worldwide collaboration as we want to build, share and
                     improve software together and make it available to everyone.
                 </p>
-                <br>
-                <i class="fa fa-thumbs-up fa-circle fa-5x"></i>
-                <h2>Out of the Box Experience</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6 centered">
+                <span class="fa-stack fa-3x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-thumbs-up fa-stack-1x fa-inverse"></i></span>
+                <h6>Out of the Box Experience</h6>
                 <p>
                     Hawaii aims to offer an excellent user experience with its desktop environment.
                     Instead of forcing you to know every detail of your computer we expect you
                     to turn it on, sit down and just use it.
                 </p>
             </div>
-            <div class="col-md-3">
-                <i class="fa fa-cogs fa-5x"></i>
-                <h2>Advanced Technologies</h2>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 centered">
+                <span class="fa-stack fa-3x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cogs fa-stack-1x fa-inverse"></i></span>
+                <h6>Advanced Technologies</h6>
                 <p>
                     Hawaii was born to take advantage of QtQuick, Wayland and systemd.
                     Therefore it features a dynamic, flicker free and fast system.
                 </p>
-                <br>
-                <span class="fa-stack-inline fa-5x">
-                    <i class="fa fa-desktop"></i>
-                    <i class="fa fa-mobile"></i>
+            </div>
+            <div class="col-xs-12 col-sm-6 centered">
+                <span class="fa-stack fa-3x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <span class="fa-stack-inline fa-stack-1x fa-inverse" style="font-size: 75%"><i class="fa fa-desktop"></i><i class="fa fa-mobile"></i></span>
                 </span>
-                <h2>Responsive Design</h2>
+                <h6>Responsive Design</h6>
                 <p>
                      Hawaii was made to look and behave great on every form factor.
                      The user interface is adapted to the needs of the device it is running
@@ -82,6 +93,6 @@ layout: default
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <!-- vim: set noai ts=4 sw=4 expandtab: -->

@@ -3,6 +3,7 @@ _site
 .jekyll
 .bundle
 .sass-cache
+.swp
 Gemfile
 Gemfile.lock
 node_modules

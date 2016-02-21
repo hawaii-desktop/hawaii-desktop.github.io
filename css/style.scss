@@ -43,23 +43,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 50px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 44px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 38px;
   color: $gray;
+}
+
+h5 {
+  font-size: 34px;
+}
+
+h6 {
+  font-size: 28px;
 }
 
 p {
