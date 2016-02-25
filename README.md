@@ -13,6 +13,7 @@ sudo dnf install -y ruby-devel rubygem-rake rubygem-execjs rubygem-therubyracer
 gem install github-pages
 gem install jekyll-contentblocks
 gem install jekyll-minifier
+gem install jekyll-paginate
 ```
 
 Serve the pages locally with:

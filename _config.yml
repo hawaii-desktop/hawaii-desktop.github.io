@@ -91,6 +91,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-contentblocks
   #- jekyll-minifier
+  - jekyll-paginate
 
 # Exclude certain resources from minimization
 jekyll-minifier:
