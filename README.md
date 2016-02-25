@@ -14,6 +14,7 @@ gem install github-pages
 gem install jekyll-contentblocks
 gem install jekyll-minifier
 gem install jekyll-paginate
+gem install pygments.rb
 ```
 
 Serve the pages locally with:
