@@ -37,5 +37,5 @@ so that Qt packages will be updated and install Hawaii:
 sudo dnf copr enable @kdesig/Qt5
 sudo dnf copr enable plfiorini/hawaii-nightly
 sudo dnf update
-sudo dnf install qt5-qtwayland hawaii-workspace hawaii-shell hawaii-system-preferences hawaii-terminal
+sudo dnf install qt5-qtwayland hawaii-workspace hawaii-shell hawaii-system-preferences hawaii-terminal hawaii-icon-theme hawaii-wallpapers
 ```
