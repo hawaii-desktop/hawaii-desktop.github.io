@@ -25,7 +25,7 @@ turn it on, sit down and just use it.
 
 It’s not the kind of Linux distribution you tried before.
 Instead of including a plethora of different desktop environments,
-Maui has only one made to overcome the boundaries of the current solutions.
+Hawaii has only one made to overcome the boundaries of the current solutions.
 
 Hawaii the desktop environment, has a balanced settings policy, between the
 minimalist approach where almost no preferences are available and the
@@ -49,7 +49,7 @@ Hawaii was born to take advantage of what Qt, QtQuick, Wayland and systemd offer
 ## Wayland
 
 Wayland is the most exciting piece of technology for the Linux graphics stack in
-years and Maui is the first Linux distribution to use it, in fact Maui couldn't
+years and Hawaii is the first Linux distribution to use it, in fact Hawaii couldn't
 be done without it.
 
 Wayland provides a method for compositing window managers to communicate directly
@@ -65,7 +65,7 @@ more than 70 industries have chosen Qt to build advanced applications and device
 
 It's available as a SDK that aims at maintaining binary compatibility through
 minor releases, this means your applications will run on previous versions of
-Maui and developers won’t need to rebuild the bundles for every minor release
+Hawaii and developers won’t need to rebuild the bundles for every minor release
 of the operating system.
 
 The shell is built using QtQuick, a collection of technologies that are designed
