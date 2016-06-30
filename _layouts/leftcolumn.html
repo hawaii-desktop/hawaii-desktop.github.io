@@ -9,11 +9,10 @@ layout: default
 <div class="container-fluid">
     <div class="row-fluid">
         <div class="col-md-2 col-md-offset-2">
-            <h3>More</h3>
-            <ul>
+            <ul class="list-group">
                 {% for pg in site.pages %}
                     {% if pg.group == page.group %}
-                        <li><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
+                        <li class="list-group-item"><a href="{{ site.baseurl }}{{ pg.url }}">{{ pg.title }}</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
