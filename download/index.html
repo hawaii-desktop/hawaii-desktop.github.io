@@ -6,38 +6,32 @@ commentsEnabled: true
 permalink: /download/
 ---
 
-<h2>Version 0.7.0 - Snapshots</h2>
+<div class="row">
+    <div class="col-md-6">
+        <h3>Test Image (64 bit)</h3>
+        <img src="/images/icons/media-cdr.svg" width="128" height="128">
+        <p>Features pre-release software built from developer repositories.</p>
+        <p><strong>SHA256:</strong> df8662660facfc8cf2a4c2ce38cb088b98d11eff7bbcd117d339e1e78258ab38</p>
+        <p class="centered-block"><a class="btn btn-success" target="_blank" href="https://sourceforge.net/projects/hawaiios/files/snapshots/hawaii-20160629-x86_64.iso/download">Download</a></p>
+        <p>At the graphical login prompt just hit Enter to log in.</p>
+    </div>
+    <div class="col-md-6">
+        <h3>Hardware Support</h3>
+        <p>
+            Hardware supported by Open Source drivers should work.
+            Here's the list of supported GPUs:
+        </p>
 
-<h3>Username and password</h3>
-<p>
-Live images have two users: root and liveuser both without password.
-</p>
-<p>
-At the graphical login prompt just hit Enter to log in.
-</p>
+        <ul>
+            <li>Intel: i915 or newer cards</li>
+            <li>AMD/ATI: using the open source driver except for cards supported by radeonsi</li>
+            <li>NVIDIA: cards supported by the nouveau open source driver</li>
+            <li>VMware</li>
+            <li>QEMU with QXL</li>
+        </ul>
 
-<h3>Hardware Support</h3>
-<p>
-Hardware supported by Open Source drivers should work.
-Here's the list of supported GPUs:
-</p>
-
-<ul>
-<li>Intel: i915 or newer cards</li>
-<li>AMD/ATI: using the open source driver except for cards supported by radeonsi</li>
-<li>NVIDIA: cards supported by the nouveau open source driver</li>
-<li>VMware</li>
-<li>QEMU with QXL</li>
-</ul>
-
-<p>VirtualBox is not currently supported due to lack of drivers for Wayland.</p>
-
-<h3>Download</h3>
-
-<h4>64-bit image (29 June 2016)</h4>
-<a class="btn btn-primary" href="https://sourceforge.net/projects/hawaiios/files/snapshots/hawaii-20160629-x86_64.iso/download">Download</a>
-<ul>
-    <li><strong>SHA256:</strong> df8662660facfc8cf2a4c2ce38cb088b98d11eff7bbcd117d339e1e78258ab38</li>
-</ul>
+        <p>VirtualBox does not currently support Wayland reliably, please use other virtualization solutions such as <a href="https://virt-manager.org/">virt-manager</a>.</p>
+    </div>
+</div>
 
 <!-- vim: set noai ts=4 sw=4 expandtab: -->
