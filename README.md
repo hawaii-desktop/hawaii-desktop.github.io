@@ -15,6 +15,7 @@ gem install jekyll-contentblocks
 gem install jekyll-minifier
 gem install jekyll-paginate
 gem install pygments.rb
+gem install redcarpet
 ```
 
 Serve the pages locally with:
