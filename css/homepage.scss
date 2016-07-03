@@ -1,6 +1,98 @@
 ---
 ---
 
+// Hero
+
+.hero {
+    padding: 30px 0;
+    border-style: solid;
+    background-attachment: fixed;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 300;
+    }
+}
+
+.hero-row {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 0px
+}
+
+.colored {
+    background-color: #dcdde2;
+    border-top-color: #e5e5e5;
+    border-bottom-color: #e5e5e5;
+}
+
+.twitter {
+    background-color: #5ea9dd;
+    border-top-color: #e5e5e5;
+    border-bottom-color: #e5e5e5;
+    color: #fff;
+
+    h1, h2, h3, h4, h5, h6 {
+        color: #fff;
+    }
+}
+
+// Posts
+
+.post {
+    display: inline-block;
+    vertical-align: top;
+    width: 46%;
+    max-width: 46%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 6px;
+    padding: 0.5em;
+    background-color: #c7c9d1;
+
+    .title {
+        clear: none;
+        margin: 0 0 0.3em 0;
+        font-size: 1.2em;
+        font-weight: bold;
+
+        a {
+            color: #22333b;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #333;
+        }
+    }
+
+    .meta {
+        margin-bottom: 0.7em;
+        font-size: 0.8em;
+        opacity: 0.6;
+    }
+
+    .excerpt {
+        margin-bottom: 0.5em;
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    .link {
+        font-size: 0.9em;
+    }
+}
+
+// Showcase
+
 .showcase1 {
     background-image: url(/images/header-bg.jpg);
     background-position: center top;
