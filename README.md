@@ -9,13 +9,9 @@ To learn how to work on this Web site please refer to the [Jekyll Now documentat
 Install the following stuff the first time:
 
 ```sh
-sudo dnf install -y ruby-devel rubygem-rake rubygem-execjs rubygem-therubyracer
-gem install github-pages
-gem install jekyll-contentblocks
-gem install jekyll-minifier
-gem install jekyll-paginate
-gem install pygments.rb
-gem install redcarpet
+sudo dnf install -y ruby-devel rubygem-rake rubygem-execjs rubygem-therubyracer rubygem-bundler
+gem install bundler
+bundle install
 ```
 
 Serve the pages locally with:
