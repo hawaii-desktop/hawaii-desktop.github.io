@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hawaii</title>
+    <description>The QtQuick and Wayland system</description>
+    <link>http://hawaiios.org</link>
+    <atom:link href="http://hawaiios.org/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Green Island 0.8.1</title>
+        <description>&lt;p&gt;We are proud to announce the availability of Green Island 0.8.1.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;This release includes fixes for the kms device integration, initial
+improvements for HiDPI, improvemens for focus policy, removed
+shadows around fullscreen windows and windows with an invalid size,
+client library fixes and build fixes with the next qtbase.&lt;/p&gt;
+
+&lt;p&gt;Sources and SHA1 hashes follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/greenisland/greenisland/releases/download/v0.8.1/greenisland-0.8.1.tar.gz&quot;&gt;greenisland-0.8.1.tar.gz&lt;/a&gt; (SHA1: 7b1723d85c6eaf4ebc41c8a032c80084592aa062)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/greenisland/greenisland/releases/download/v0.8.1/greenisland-0.8.1.tar.xz&quot;&gt;greenisland-0.8.1.tar.xz&lt;/a&gt; (SHA1: a90b60dbd742d7279f62ac94ea8806597e1878b0)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 29 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://hawaiios.org/news/2016/08/29/greenisland-0.8.1/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/08/29/greenisland-0.8.1/</guid>
+      </item>
+    
+      <item>
+        <title>SDDM 0.14.0</title>
+        <description>&lt;p&gt;We are proud to announce the immediate availability of &lt;a href=&quot;https://github.com/sddm/sddm&quot;&gt;SDDM&lt;/a&gt; 0.14.0.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Change log:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New sddm.conf option EnableAvatars (useful for slow filesystems)&lt;/li&gt;
+&lt;li&gt;New sddm.conf option UserAuthFile on the XDisplay section
+to change the default Xauthority file name and path.&lt;/li&gt;
+&lt;li&gt;New sddm.conf option SessionLogFile on XDisplay and WaylandDisplay
+sections to change the default user session log location.&lt;/li&gt;
+&lt;li&gt;ComboBox now exposes the arrow background color as
+&amp;quot;arrowColor&amp;quot; property.&lt;/li&gt;
+&lt;li&gt;New &amp;quot;style&amp;quot; theme configuration for QtQuick Controls 2.0.&lt;/li&gt;
+&lt;li&gt;Require Qt 5.6 or better.&lt;/li&gt;
+&lt;li&gt;Enable HiDPI support.&lt;/li&gt;
+&lt;li&gt;Refresh sessions list.&lt;/li&gt;
+&lt;li&gt;Always fallback to an embedded theme if no suitable theme is found.&lt;/li&gt;
+&lt;li&gt;Actually change Qt platform theme.&lt;/li&gt;
+&lt;li&gt;Switch to Wayland session vt only when authentication
+succeeds.&lt;/li&gt;
+&lt;li&gt;Close PAM session.&lt;/li&gt;
+&lt;li&gt;Delete PAM credentials after closing the session.&lt;/li&gt;
+&lt;li&gt;More theme-neutral default user and root avatars&lt;/li&gt;
+&lt;li&gt;REMOVED the &amp;quot;circles&amp;quot; theme. Remember to change it if you had it set!&lt;/li&gt;
+&lt;li&gt;REMOVED the &amp;quot;maui&amp;quot; theme as a standalone theme as it is now
+embedded in the greeter. Remember to change the theme to empty
+if you had it set to &amp;quot;maui&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Update Estonian translation.&lt;/li&gt;
+&lt;li&gt;Add Catalan translation from Robert Antoni Buj Gelonch.&lt;/li&gt;
+&lt;li&gt;Add Dutch translation from Eric Hameleers.&lt;/li&gt;
+&lt;li&gt;Add Slovak translation from Martin Minka.&lt;/li&gt;
+&lt;li&gt;Add Swedish translation from Kristoffer Grundström.&lt;/li&gt;
+&lt;li&gt;Add Ukrainian translation from Cherevan Andriy.&lt;/li&gt;
+&lt;li&gt;Add Indian flag from Sanjeev Premi.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More information can be found &lt;a href=&quot;https://github.com/sddm/sddm/wiki/0.14.0-Release-Announcement&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sources and SHA1 hashes follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sddm/sddm/releases/download/v0.14.0/sddm-0.14.0.tar.gz&quot;&gt;sddm-0.14.0.tar.gz&lt;/a&gt; (SHA1: 2b34276c33329d51dd35df15c59e6ebbe9b27127)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sddm/sddm/releases/download/v0.14.0/sddm-0.14.0.tar.xz&quot;&gt;sddm-0.14.0.tar.xz&lt;/a&gt; (SHA1: ee92a2b27602c13d6ac5cfd34399192a31ca033c)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://hawaiios.org/news/2016/08/28/sddm-0.14.0/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/08/28/sddm-0.14.0/</guid>
+      </item>
+    
+      <item>
+        <title>Green Island 0.8.0</title>
+        <description>&lt;p&gt;We are proud to announce the availability of Green Island 0.8.0.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;The compositor is now based on the latest version of the new QtWayland Compositor API
+and includes the following improvements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New API that makes writing QML code much easier.&lt;/li&gt;
+&lt;li&gt;Porting Green Island server API to the new QtWaylandCompositor API.&lt;/li&gt;
+&lt;li&gt;Standard window management component that supports wl-shell, xdg-shell and gtk-shell.&lt;/li&gt;
+&lt;li&gt;Qt-style API for Wayland clients.&lt;/li&gt;
+&lt;li&gt;New screencaster and screenshot protocols.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following changes were submitted to QtWayland while working on this release:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Rename setPopup surface argument - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=40217a5&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add keyboard repeat rate and delay - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=d18db98&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix typo in QWaylandQuickOutput warning - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=7f1c59c&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mark reimplemented methods as override - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=c7a0765&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update git ignore list - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=02fa8b9&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add clients with the correct version - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=68993c0&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Send correct refresh rate on binding - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=af11823&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Allow headless compositors and avoid crashes - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=0a1ea27&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Set appId according to QGuiApplication::desktopFileName() - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=1d95a31&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Actually change manufacturer and model - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=698acef&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Send the right output position to clients - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=a78e3ff&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Output available geometry in output coordinates space - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=6aa799c&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update wayland.xml to 1.6 - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=35792ca&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Send keyboard repeat information - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=6341bf9&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add missing override - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=90398eb&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update plugins.qmltypes - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=f430e84&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update ignore list - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=1a22fe5&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Remove unimplemented subsurface methods from extended surface - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=95d2bff&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix test build - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=a1b8e32&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Make window manager extension QML friendly - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=1aa4f82&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add window manager extension to the pure-qml example - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=38cdbab&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update QtWaylandCompositor plugins.qmltypes - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=1f1db8e&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Rename QWaylandWindowManagerExtension to QWaylandQtWindowManager - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=58bfe9d&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Update QtWayland.Comport plugins.qmltypes - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=2a2d75d&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Remove redundant types - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=527aa2f&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add WaylandOutputBase to imports - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=96f5ab9&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Access QWaylandQuickShellSurfaceItem constructor from derived classes - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=c1e28e6&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Emit signals when outputs are added or removed - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=0fb8322&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add compositor property to QWaylandClient - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=5c9be7f&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Emit a signal when QWaylandXdgSurface changes window type - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=db229d2&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compositor: fix wl_shell popups on multi-output - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=9c61835&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Add QQmlParserStatus interface to QtQuick extensions - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=4d4f44a&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compositor: consider available geometry when maximizing - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=395e2be&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compositor: maximize on the output where the item is rendered - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=09aa17e&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compositor: always use move item when positioning shell surfaces - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=37479b8&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Compositor: Document QWaylandWlShellSurface shell property - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=f964f85&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;compositor: Add shell property to xdg-shell - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?h=dev&amp;id=768a28b&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the following on qtbase:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Add QGuiApplication::setDesktopFileName() - &lt;a href=&quot;http://code.qt.io/cgit/qt/qtbase.git/commit/?h=dev&amp;id=61ad604&quot;&gt;link&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sources and SHA1 hashes follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/greenisland/greenisland/releases/download/v0.8.0/greenisland-0.8.0.tar.gz&quot;&gt;greenisland-0.8.0.tar.gz&lt;/a&gt; (SHA1: c1becbdb8e89b2ef00801b351186f750c88b5e2b)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/greenisland/greenisland/releases/download/v0.8.0/greenisland-0.8.0.tar.xz&quot;&gt;greenisland-0.8.0.tar.xz&lt;/a&gt; (SHA1: 13c10cebc6881946c065d5ccc2bb1558feac4db3)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 Aug 2016 00:00:00 +0200</pubDate>
+        <link>http://hawaiios.org/news/2016/08/28/greenisland-0.8.0/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/08/28/greenisland-0.8.0/</guid>
+      </item>
+    
+      <item>
+        <title>Test images for Hawaii 0.7.0</title>
+        <description>&lt;p&gt;Hawaii 0.7.0 is around the corner, in order to test the new packages
+more easily the ISO images for 64 bit PCs were now updated.&lt;/p&gt;
+
+&lt;p&gt;The new version is expected in early July.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Test images are regularly updated and can be found &lt;a href=&quot;https://sourceforge.net/projects/hawaiios/files/snapshots/&quot;&gt;here&lt;/a&gt;
+until the release comes out.&lt;/p&gt;
+
+&lt;p&gt;You can report issues on the general &lt;a href=&quot;https://github.com/hawaii-desktop/hawaii/issues&quot;&gt;bug tracker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Live images have two users: &amp;quot;root&amp;quot; and &amp;quot;liveuser&amp;quot; both without password.
+At the graphical login prompt just hit Enter to log in as &amp;quot;liveuser&amp;quot;.&lt;/p&gt;
+
+&lt;p&gt;Remember that you can also test on virtual machines with QEMU with QXL and VMware,
+unfortunately VirtualBox does not support Wayland reliably at the moment.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 29 Jun 2016 00:00:00 +0200</pubDate>
+        <link>http://hawaiios.org/news/2016/06/29/hawaii-0.7.0-test/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/06/29/hawaii-0.7.0-test/</guid>
+      </item>
+    
+      <item>
+        <title>Hawaii groups added to Fedora 24</title>
+        <description>&lt;p&gt;Starting from Fedora 24 you will be able to install the Hawaii desktop
+environment with a simple dnf command.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Typing the following command will install Hawaii on an existing Fedora 24
+installation:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;sudo dnf install @hawaii-desktop
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;It&amp;#39;s also possible to install a new Fedora system with Hawaii selecting
+the appropriate group from Anaconda.&lt;/p&gt;
+
+&lt;p&gt;Hawaii packages were available in previous versions too but the group was never
+created before. It will make the desktop installable with a single command
+without going through the list of dependencies.&lt;/p&gt;
+
+&lt;p&gt;Fedora now has the first snapshot of Hawaii 0.7.0 packaged, but if you want
+a more fresh version you should use the &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/plfiorini/hawaii-nightly/&quot;&gt;copr&lt;/a&gt;
+repository that supports up to Fedora rawhide, including Fedora 24.&lt;/p&gt;
+
+&lt;p&gt;Nightly packages incorporate all the latest features and bug fixes, given that 0.7.0 is not
+out yet you have more chances to get fresh stuff with those packages.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Mar 2016 00:00:00 +0100</pubDate>
+        <link>http://hawaiios.org/news/2016/03/24/fedora-24/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/03/24/fedora-24/</guid>
+      </item>
+    
+      <item>
+        <title>Nightly builds for Fedora users</title>
+        <description>&lt;p&gt;Work on Hawaii 0.7.0 is advancing.&lt;/p&gt;
+
+&lt;p&gt;Hundreds of commits were pushed right after tagging the 0.6.0 version, as they
+were in the works for some time.&lt;/p&gt;
+
+&lt;p&gt;Snapshots of the upcoming release are being built for Fedora 22 and 23
+with Copr.  You can see the plfiorini/hawaii-nightly repository &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/plfiorini/hawaii-nightly/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;The external repository requires Qt 5.6 rc which is being built by the KDE SIG
+in the Qt5 Copr repository available &lt;a href=&quot;https://copr.fedorainfracloud.org/coprs/g/kdesig/Qt5/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Since Qt 5.6 will be available on Fedora 24 we won&amp;#39;t need the Qt5 repository
+with the upcoming Fedora release.&lt;/p&gt;
+
+&lt;p&gt;Hopefully previous Fedora versions will have Qt 5.6 eventually when it&amp;#39;ll be officially released.&lt;/p&gt;
+
+&lt;p&gt;Remember that using the Qt5 repository on Fedora 22 and 23 will update
+the existing Qt packages from 5.5.1 to 5.6.0 rc.&lt;/p&gt;
+
+&lt;p&gt;While Qt is binary compatible with previous versions and personally I haven&amp;#39;t reproduced
+issues with existing applications built with Qt 5.5.1, there might still be a chance
+to break something.&lt;/p&gt;
+
+&lt;p&gt;In order to try Hawaii nightly you need to enable both Copr repositories, update your system
+so that Qt packages will be updated and install Hawaii:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-sh&quot; data-lang=&quot;sh&quot;&gt;sudo dnf copr &lt;span class=&quot;nb&quot;&gt;enable&lt;/span&gt; @kdesig/Qt5
+sudo dnf copr &lt;span class=&quot;nb&quot;&gt;enable &lt;/span&gt;plfiorini/hawaii-nightly
+sudo dnf update
+sudo dnf install qt5-qtwayland hawaii-workspace hawaii-shell hawaii-system-preferences hawaii-terminal hawaii-icon-theme hawaii-wallpapers
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+        <pubDate>Wed, 24 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://hawaiios.org/news/2016/02/24/fedora-nightly-copr/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/02/24/fedora-nightly-copr/</guid>
+      </item>
+    
+      <item>
+        <title>Hawaii 0.6.0</title>
+        <description>&lt;p&gt;We are proud to announce the immediate availability of Hawaii 0.6.0.&lt;/p&gt;
+
+&lt;p&gt;This is a release made in preparation for a more large update that is being
+developed in a separate branch for a while now.&lt;/p&gt;
+
+&lt;p&gt;Hawaii 0.6.0 is the culmination of several months of development and an
+important milestone, especially regarding the compositor.&lt;/p&gt;
+
+&lt;p&gt;A more detailed article will be posted after the first snapshot of Hawaii 0.7.0.&lt;/p&gt;
+
+&lt;p&gt;While there is no official release date planned, a new ISO image is expected
+to be dropped in March.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Cumulative change log:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Video capture protocol and CLI application.&lt;/li&gt;
+&lt;li&gt;Screenshooter protocol.&lt;/li&gt;
+&lt;li&gt;Minimal shell with basic desktop window management, kind of Weston desktop shell.&lt;/li&gt;
+&lt;li&gt;API to set key maps.&lt;/li&gt;
+&lt;li&gt;Multiple screens support.&lt;/li&gt;
+&lt;li&gt;Custom screen configuration from JSON files.&lt;/li&gt;
+&lt;li&gt;Remove KScreen dependency, Green Island now depends only on Qt.&lt;/li&gt;
+&lt;li&gt;Hot spots.&lt;/li&gt;
+&lt;li&gt;Key bindings.&lt;/li&gt;
+&lt;li&gt;Plugins infrastracture that allows to move optional features to plugins.&lt;/li&gt;
+&lt;li&gt;Pointer barrier.&lt;/li&gt;
+&lt;li&gt;Idle monitor.&lt;/li&gt;
+&lt;li&gt;Support for the latest xdg-shell protocol.&lt;/li&gt;
+&lt;li&gt;Support for &lt;em&gt;wl&lt;/em&gt;fullscreen_shell as a client.&lt;/li&gt;
+&lt;li&gt;Support for wl&lt;em&gt;subcompositor and wl&lt;/em&gt;subsurface.&lt;/li&gt;
+&lt;li&gt;Plasma protocols (which were originally developed and tested here).&lt;/li&gt;
+&lt;li&gt;Launcher with automatic hardware detection.&lt;/li&gt;
+&lt;li&gt;Shared QML engine for even better performance.&lt;/li&gt;
+&lt;li&gt;ARM build fixes.&lt;/li&gt;
+&lt;li&gt;Custom qtwayland copies are no longer required.&lt;/li&gt;
+&lt;li&gt;Platform library with Qt-based wrappers to libinput, udev, logind and vt handling and a device integration API derived from eglfs that is capable of loading hardware specific plugins&lt;/li&gt;
+&lt;li&gt;Detect current seat.&lt;/li&gt;
+&lt;li&gt;List input devices based on current seat.&lt;/li&gt;
+&lt;li&gt;Green Island specific QPA plugin based on the new platform library.&lt;/li&gt;
+&lt;li&gt;Support for running on DRM/KMS, Vivante, Broadcom (Raspberry Pi), Mali and X11 when using the greenisland QPA plugin.&lt;/li&gt;
+&lt;li&gt;Fix a couple of build issues with Qt 5.6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Several upstream fixes:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://git.gnome.org/browse/gtk+/&quot;&gt;gtk+&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://git.gnome.org/browse/gtk+/commit/?id=6ae521bb325493d32fa2e3be341886163b0d7df9&quot;&gt;wayland: Do not require latest wl_seat&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtbase.git/&quot;&gt;qtbase&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Virtual desktop support for eglfs_kms - Will be available with Qt 5.5.1 and Qt 5.6.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtbase.git/commit/?id=11512d6a2cd6d816a13db7ee0c48627d6534b377&quot;&gt;eglfs_kms: Virtual desktop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Fix crash on exit with applications using eglfs_kms - Will be available with Qt 5.5.1 and Qt 5.6.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtbase.git/commit/?id=11370f0a43bc2912b529573689941fe88446ff0f&quot;&gt;eglfs: Destroy screens after windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;QPA contributions - Will be available with Qt 5.6.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtbase.git/commit/?h=dev&amp;id=d71f3e088275caa13d73d908deadbc45660a6ab9&quot;&gt;Add power state to QPlatformScreen&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtbase.git/commit/?h=dev&amp;id=e948f97814175d2e28ac4dba37f8e49b8775b2cf&quot;&gt;Implemente DPMS mode with eglfs_kms&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/&quot;&gt;qtwayland&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fix application id for Qt wayland clients - Available since Qt 5.4.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=72aa34dc2aebbea715a5915f26cb6f0f67e164d1&quot;&gt;Remove .desktop suffix to appId&lt;/a&gt; &lt;/li&gt;
+&lt;li&gt;Multiple outputs support - Available since Qt 5.5.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=b09f2e8440b7a0c9532d730d52296cf05b944ee2&quot;&gt;Add QWaylandOutput to support multiple outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=d6a9b108f4bc2cf3d6a68a16128796d75f767829&quot;&gt;Move surfaces to outputs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=1239e62bc9a88854e2a844716ef166e2acfef622&quot;&gt;Send done and scale events only when clients support wl_output &amp;gt;= 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Remove old output extension - Will be available with Qt 5.6.0
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=2a975049e582d98a4a3ee8dfce7a1be6737ec277&quot;&gt;Remove output extension&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Wayland 1.6 support - Not yet merged upstream because Qt CI doesn&amp;#39;t support Wayland 1.6, hopefully available with Qt 5.6.0&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://codereview.qt-project.org/#/c/104222/&quot;&gt;Update wayland.xml to 1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Raspberry Pi fixes - Available since Qt 5.4.2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=d5e7965a87d81e2d7157c785403b0aba681de62a&quot;&gt;brcm-egl: Avoid conflicts with GLES3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=6b4db848c9898676074ea4bc601ac04196105ab1&quot;&gt;Fix build for brcm-egl integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://code.qt.io/cgit/qt/qtwayland.git/commit/?id=aad4549584498dddf7b08df595417b4ad0a05419&quot;&gt;brcm-egl: Disambiguate wl_registry&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sources and SHA1 hashes follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/greenisland/greenisland/releases/download/v0.7.1/greenisland-0.7.1.tar.xz&quot;&gt;greenisland-0.7.1.tar.xz&lt;/a&gt; (SHA1: 2142213e8941d529f7fce6fad6a44cd37af3045e)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hawaii-desktop/libhawaii/releases/download/v0.6.0/libhawaii-0.6.0.tar.xz&quot;&gt;libhawaii-0.6.0.tar.xz&lt;/a&gt; (SHA1: 540e70590d58df671b5db59621bc71233ffe3726)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hawaii-desktop/hawaii-shell/releases/download/v0.6.0/hawaii-shell-0.6.0.tar.xz&quot;&gt;hawaii-shell-0.6.0.tar.xz&lt;/a&gt; (SHA1: 766a8bedbf00c3a25dac8d5a88483f757295d17e)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hawaii-desktop/hawaii-workspace/releases/download/v0.5.0/hawaii-workspace-0.5.0.tar.xz&quot;&gt;hawaii-workspace-0.5.0.tar.xz&lt;/a&gt; (SHA1: 590cdd54dbcf0beaa73e21b65d9209ed59fb37dd)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hawaii-desktop/hawaii-system-preferences/releases/download/v0.5.0/hawaii-system-preferences-0.5.0.tar.xz&quot;&gt;hawaii-system-preferences-0.5.0.tar.xz&lt;/a&gt; (SHA1: 3d6a2e77953859efad03863888784c12a47b12ef)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hawaii-desktop/hawaii-widget-styles/releases/download/v0.5.1/hawaii-widget-styles-0.5.1.tar.xz&quot;&gt;hawaii-widget-styles-0.5.1.tar.xz&lt;/a&gt; (SHA1: 72f7d5e4d8a51b730bc1fbc018de2b96a624a097)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/hawaii-desktop/hawaii-icon-theme/releases/download/v0.5.92/hawaii-icon-theme-0.5.92.tar.xz&quot;&gt;hawaii-icon-theme-0.5.92.tar.xz&lt;/a&gt; (SHA1: 8d1fd19a045ff427999457cc5c84e95b9c07e809)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 14 Feb 2016 00:00:00 +0100</pubDate>
+        <link>http://hawaiios.org/news/2016/02/14/hawaii-0.6.0/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2016/02/14/hawaii-0.6.0/</guid>
+      </item>
+    
+      <item>
+        <title>SDDM 0.13.0</title>
+        <description>&lt;p&gt;We are proud to announce the immediate availability of &lt;a href=&quot;https://github.com/sddm/sddm&quot;&gt;SDDM&lt;/a&gt; 0.13.0.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Change log:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Greeter inherits path environment variables from parent so that themes installed in non-standard paths will work.&lt;/li&gt;
+&lt;li&gt;Add ENABLE_PAM option to toggle PAM support at build time.&lt;/li&gt;
+&lt;li&gt;Allow overriding textColor in ComboBox.&lt;/li&gt;
+&lt;li&gt;Don&amp;#39;t cast QByteArray to (char *).&lt;/li&gt;
+&lt;li&gt;Disable greeters from loading KDE&amp;#39;s debug hander (fix CVE-2015-0856).&lt;/li&gt;
+&lt;li&gt;Fix multi-screen support for some setups.&lt;/li&gt;
+&lt;li&gt;Added Serbian translation.&lt;/li&gt;
+&lt;li&gt;Added Traditional Chinese translation.&lt;/li&gt;
+&lt;li&gt;Improved German translation.&lt;/li&gt;
+&lt;li&gt;Remove failsafe session entry.&lt;/li&gt;
+&lt;li&gt;Close the pipe fd passed to X server.&lt;/li&gt;
+&lt;li&gt;A few micro-optimizations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More information can be found &lt;a href=&quot;https://github.com/sddm/sddm/wiki/0.13.0-Release-Announcement&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sources and SHA1 hashes follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sddm/sddm/releases/download/v0.13.0/sddm-0.13.0.tar.xz&quot;&gt;sddm-0.13.0.tar.xz&lt;/a&gt; (SHA1: 0e022f8eed64307a2ca8536c71204954c2858106)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sddm/sddm/releases/download/v0.13.0/sddm-0.13.0.tar.gz&quot;&gt;sddm-0.13.0.tar.gz&lt;/a&gt; (SHA1: dcb5328b222cbf34f70956415a4da2017620b0c9)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 04 Nov 2015 00:00:00 +0100</pubDate>
+        <link>http://hawaiios.org/news/2015/11/04/sddm-0.13.0/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2015/11/04/sddm-0.13.0/</guid>
+      </item>
+    
+      <item>
+        <title>SDDM 0.12.0</title>
+        <description>&lt;p&gt;We are proud to announce the immediate availability of &lt;a href=&quot;https://github.com/sddm/sddm&quot;&gt;SDDM&lt;/a&gt; 0.12.0.&lt;/p&gt;
+
+&lt;p&gt;This release features working Wayland sessions for the first time,
+but the greeter is still running on Xorg.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;This means that you will be able to login into a Wayland desktop
+environment without problems however the greeter screen still
+depends on X11.&lt;/p&gt;
+
+&lt;p&gt;Work on the Wayland support for the greeter has already been
+started and will likely be available with the next release.&lt;/p&gt;
+
+&lt;p&gt;Highlights of this release:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;BACKWARDS-INCOMPATIBLE: SDDM now depends on Qt &amp;gt;= 5.3&lt;/li&gt;
+&lt;li&gt;BACKWARDS-INCOMPATIBLE: Display setup script is now killed if it hasn&amp;#39;t finished within 30 seconds&lt;/li&gt;
+&lt;li&gt;LICENSING: The Maldives non-free background has been replaced by a CC-BY-SA alternative&lt;/li&gt;
+&lt;li&gt;WAYLAND: Wayland sessions support&lt;/li&gt;
+&lt;li&gt;CONFIG: New sddm.conf option &lt;code&gt;XephyrPath&lt;/code&gt; (defaults to &lt;code&gt;/usr/bin/Xephyr&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;CONFIG: new sddm.conf option &lt;code&gt;ServerArguments&lt;/code&gt; (defaults to &lt;code&gt;-nolisten tcp&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;CONFIG: new sddm.conf option &lt;code&gt;DisplayStopCommand&lt;/code&gt; (executes Xstop)&lt;/li&gt;
+&lt;li&gt;THEMES: Assorted improvements to the default theme&lt;/li&gt;
+&lt;li&gt;BUGFIX: Honor TryExec in Xsession desktop files&lt;/li&gt;
+&lt;li&gt;BUGFIX: Fix session startup on zsh&lt;/li&gt;
+&lt;li&gt;BUILD: Allow setting a custom &lt;code&gt;DBUS_CONFIG_FILENAME&lt;/code&gt; at compile time&lt;/li&gt;
+&lt;li&gt;BUILD: Allow &lt;code&gt;SYSTEMD_SYSTEM_UNIT_DIR&lt;/code&gt; to be overridden at compile time&lt;/li&gt;
+&lt;li&gt;BUILD: Allow &lt;code&gt;QT_IMPORTS_DIR&lt;/code&gt; to be overridden at compile time&lt;/li&gt;
+&lt;li&gt;BUILD: No longer hardcode min/max UIDs, allow setting &lt;code&gt;UID_MIN&lt;/code&gt; and &lt;code&gt;UID_MAX&lt;/code&gt; at compile time&lt;/li&gt;
+&lt;li&gt;BUILD: Assorted FreeBSD fixes&lt;/li&gt;
+&lt;li&gt;BUILD: Fix build warnings with Qt 5.5&lt;/li&gt;
+&lt;li&gt;BUILD: Enable &lt;code&gt;QT_NO_CAST_FROM_ASCII&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;I18N: Added Arabic, contributed by Safa Alfulaij&lt;/li&gt;
+&lt;li&gt;I18N: Added Hungarian, contributed by @mortein79&lt;/li&gt;
+&lt;li&gt;I18N: Various i18n updates and improvements&lt;/li&gt;
+&lt;li&gt;I18N: Full right-to-left languages support&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More information can be found &lt;a href=&quot;https://github.com/sddm/sddm/wiki/0.12.0-Release-Announcement&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Sources and SHA1 hashes follow:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sddm/sddm/releases/download/v0.12.0/sddm-0.12.0.tar.gz&quot;&gt;sddm-0.12.0.tar.gz&lt;/a&gt; (SHA1: 9d2b1f7ac3bbbf7c60555b3809179f5c95449e09)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/sddm/sddm/releases/download/v0.12.0/sddm-0.12.0.tar.xz&quot;&gt;sddm-0.12.0.tar.xz&lt;/a&gt; (SHA1: 985aee2bbafd42969353786cc3dd63b2695cb848)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 05 Sep 2015 00:00:00 +0200</pubDate>
+        <link>http://hawaiios.org/news/2015/09/05/sddm-0.12.0/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2015/09/05/sddm-0.12.0/</guid>
+      </item>
+    
+      <item>
+        <title>QtAccountsService 0.6.0</title>
+        <description>&lt;p&gt;We are proud to announce the immediate availability of QtAccountsService 0.6.0.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;p&gt;Highlights of this release:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use extra-cmake-modules&lt;/li&gt;
+&lt;li&gt;Use standard installation directories&lt;/li&gt;
+&lt;li&gt;Use new CMake macros to generate camel case headers&lt;/li&gt;
+&lt;li&gt;Link to Qt5 targets rather than using the old qt5&lt;em&gt;use&lt;/em&gt;modules macro&lt;/li&gt;
+&lt;li&gt;Implemented UserAccount::setPassword&lt;/li&gt;
+&lt;li&gt;Export UsersModel to QML&lt;/li&gt;
+&lt;li&gt;Add a couple of small examples for C++ and QML&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 18 Jul 2015 00:00:00 +0200</pubDate>
+        <link>http://hawaiios.org/news/2015/07/18/qtaccountsservice-0.6.0/</link>
+        <guid isPermaLink="true">http://hawaiios.org/news/2015/07/18/qtaccountsservice-0.6.0/</guid>
+      </item>
+    
+  </channel>
+</rss>
