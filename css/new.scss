@@ -1,0 +1,31 @@
+---
+---
+
+@import "_variables";
+
+body {
+  font: 18px/1.4 $titillium;
+}
+
+html { 
+  background: url(/images/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.fullpage {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+
+  a, h1, h2, h3 {
+    color: white;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}

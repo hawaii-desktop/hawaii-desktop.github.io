@@ -1,0 +1,68 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+        <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+        <meta name="author" content="{{ site.name }}">
+        <meta name="description" content="{{ site.description }}">
+        <meta name="keywords" content="wayland qml linux maui os hawaii desktop qtquick c++ arm">
+
+        <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- Style -->
+        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/new.css">
+
+        <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml">
+
+        {% if page.i18n %}
+            <!-- Alternate links for translated pages -->
+            {% for item in page.i18n %}
+                <link rel="alternate" hreflang="{{ item.lang }}" href="{{ item.url }}">
+            {% endfor %}
+        {% endif %}
+
+        <!-- OpenGraph and such -->
+        {% include schema-org.html %}
+        {% include opengraph.html %}
+        {% include twitter-card.html %}
+
+        <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    </head>
+    <body>
+        {{ content }}
+
+        {% include analytics.html %}
+
+        <!-- Fonts -->
+        <!-- <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700"> -->
+        <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700">
+        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!-- Extra styles -->
+        {% contentblock extra_styles %}
+
+        <!-- jQuery -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Bootstrap -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <!-- Plugins -->
+        <script src="{{ site.baseurl }}/js/navbar.js"></script>
+        <script src="{{ site.baseurl }}/js/scroll-top.js"></script>
+        <!-- Scrollback -->
+        <script>window.scrollback = {"room":"hawaii","form":"toast","minimize":true};(function(d,s,h,e){e=d.createElement(s);e.async=1;e.src=(location.protocol === "https:" ? "https:" : "http:") + "//scrollback.io/client.min.js";d.getElementsByTagName(s)[0].parentNode.appendChild(e);}(document,"script"));</script>
+        <!-- Extra scripts -->
+        {% contentblock extra_scripts %}
+    </body>
+</html>
+
+<!-- vim: set noai ts=4 sw=4 expandtab: -->
